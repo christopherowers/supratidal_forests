@@ -1,0 +1,13 @@
+# post processing tiles to mosaic (done on local using GDAL and rios loaded in a conda env)
+
+# 1. built vrt
+gdalbuildvrt -o int_STF_2020.vrt *.tif
+
+# 2. translate to tif
+gdal_translate -of GTiff -co "COMPRESS=LZW" -co "TILED=YES" -co "BIGTIFF=YES" int_STF_2020.vrt int_STF_2020.tif
+
+# 3. calc stats for overviews - remember, need to clone and lcrimageutils repo and use the gdalcalcstats.py
+# this function is not neccessary but will  pre calculate overview statistics to make zooming around/in/out of the map much smoother
+python gdalcalcstats int_STF_2020.vrt
+
+# 4. open .vrt in QGIS

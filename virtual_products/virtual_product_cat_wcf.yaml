@@ -1,0 +1,23 @@
+products:
+    # Static path names for models, extracted to top to make them easier to change
+    woody_cover_model: &woody_model "/home/jovyan/code/supratidal_forests/models/wcf_pickle_sklearn_version_1.pickle"
+    
+    # Virtual products recipes to generate
+    best_pixel_gmad:
+        recipe:
+            &best_pixel_gmad_recipe
+            aggregate: best_pixel_gmad
+            group_by: datacube.virtual.transformations.year
+            input:
+                collate:
+                    - product: ga_ls8c_nbart_gm_cyear_3 # 2013 - 2022
+                    - product: ga_ls5t_nbart_gm_cyear_3 # 1986 - 2011
+                    - product: ga_ls7e_nbart_gm_cyear_3 # 1999 - 2021
+                index_measurement_name: sensor
+
+    woody_cover:
+        recipe:
+            &woody_cover_recipe
+            transform: woody_cover
+            input: *best_pixel_gmad_recipe
+            model_pickle: *woody_model
