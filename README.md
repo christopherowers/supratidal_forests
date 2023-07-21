@@ -14,19 +14,19 @@
 
 
 ### About
-This repository includes scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway)
+This repository includes scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway) and [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho)
 
 ### What is a supratidal forest?
-(Jeff to add)
+(Jeff/Raf to add)
 
 ### Why are supratidal forest important?
-(Jeff to add)
+(Jeff/Raf to add)
 
 ### Where do they occur?
-(Jeff to add)
+(Jeff/Raf to add)
 
 ### How can we map them?
-(Jeff and Chris to add)
+(Jeff/Chris/Raf to add)
 
 
 ### Publications
