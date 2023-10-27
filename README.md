@@ -9,14 +9,8 @@
 |__Disclaimer__| This repository is *in development*, use at your own risk |
 |__License__| The Apache 2.0 license applies to this open source code. |
 
-
-
-
-
-
-
 ### About
-This repository includes descriptions, scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway) and [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho)
+This repository includes descriptions, scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
 
 ### Project Background
 ‘Supratidal forests’ is a term which has emerged among the coastal wetland research and management community in Australia to define a broadly-distributed group of coastal ecosystems on the basis of their (1) __position within the coastal landscape__ and (2) __vegetation structure__. Research to-date suggests supratidal forests may play important roles in the cycling and storage of carbon and nutrients in the coastal zone (Adame et al. 2019, Iram et al. 2021, Kelleway et al. 2021), among other ecosystem services. Supratidal forests have been subjected to significant historic losses and land-use pressures (Keith and Scott 2005, Boon et al. 2016). Their low-lying position within the coastal zone – where catchment, aquatic and anthropogenic processes interact - may make supratidal forests particularly susceptible to changes in inundation and/or salinization (Saintilan et al. 2018, Conroy et al. 2022).
@@ -75,7 +69,7 @@ Coastal Swamp Oak Forests dominated by the genus __*Casuarina*__ (family: _CASUA
 
 &nbsp;
 
-<img src="figures/FIG4-Casuarina.png" width="" height="450" />
+<img src="figures/FIG4-Casuarina.png" width="" height="430" />
 
 __Figure 4.__  Distribution records of the dominant salt-tolerant species of the genus Casuarina commonly found within the coastal zone: _C. glauca_, _C. obesa_, _C. equisetifolia_ (data source: The Australasian Virtual Herbarium / Atlas of Living Australia; number of records listed in parentheses). 
 
@@ -141,15 +135,6 @@ We expect that the completion of the revised national supratidal forest mapping 
 ### Relationship with other ecosystems globally
 
 While analogous settings are likely to occur along similar coastlines globally, the term supratidal forest has not been broadly used outside of Australia, with some exceptions (Huntley et al. 2019, Peterson et al. 2020). Broad terminology such as ‘tidal forests’ and ‘coastal freshwater wetlands’ have been reported occasionally (Doyle et al. 2010, Grieger et al. 2020), though more specific/restrictive terms (such as tidal freshwater forested wetlands) or regionally-specific names are commonly referred to (Krauss et al. 2018). In all instances, these existing terms are considered insufficiently inclusive, or are not-locally relevant, for application across the diversity of settings present along Australia’s coasts.
-
-
-### How can we map them?
-
-Supratidal forests in Australia are mapped within the coastal areas defined by Geoscience Australia (ga_summary_grid_c3_coastal.geojson). Datasets used to map the supratidal forests at continental scale include; i) SRTM elevation, ii) Intertidal and subtidal areas, iii) Mangrove areas and iv) Woody vegetation cover. These datasets are either direct or derived GA’s datacube products.
-
-SRTM elevation is used due to its spatial completeness and derived from GA’s SRTM 1 arc-second DEM (ga_srtm_dem1sv1_0). Intertidal and subtidal areas are derived from GA’s Intertidal Extents Model (Items_v2). Mangrove areas are derived from GA’s Landsat Mangrove Cover (ga_ls_mangrove_cover_cyear_3) for the calendar year 2020. The Woody vegetation cover layer is derived from a machine learning approach. This approach uses the best available data for annual Landsat 5 (ga_ls5t_nbart_gm_cyear_3), 7 (ga_ls7e_nbart_gm_cyear_3) and 8 (ga_ls8c_nbart_gm_cyear_3) products and a Random Forest averaging algorithm based on randomized decision trees. The main parameters of the random forest regressor are set to:  max_features = 'auto'; min_impurity_decrease = 0; min_samples_leaf = 50; min_weight_fraction_leaf = 0; random_state = 20. A threshold of 0.5 - 1 is applied to the woody vegetation dataset to only select vegetation pixels which have at least 50% probability of being ‘woody’.
-
-Mapping of Supratidal forests occur in woody vegetated areas where elevation is between 1 and 10 m above Australian Height Datum (approximately mean sea level), excluding other woody vegetation such as mangroves and intertidal and subtidal areas.
 
 ### Publications
 Below is a reference list of publications on supratidal forests for more information on this unique coastal ecosystem
