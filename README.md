@@ -97,10 +97,12 @@ __Figure 5.__ Examples of geomorphic and vegetation classes of supratidal forest
 (g) _Melaleuca ericifolia_ forest (left) and adjacent coastal saltmarsh (centre) during low water conditions of open estuary entrance conditions, Tilba Tilba Lake (ICOLL), NSW  
 
 
+&nbsp; 
+
+
 ### Draft typology
 
 The national supratidal forests map generated in this project will provide a binary classification regarding the presence/absence of ‘supratidal forests’, which is undifferentiated on either the basis of vegetation composition or geomorphic classes. Conceptually however, we have identified four broad geomorphic classes of coastal forest which will be captured as ‘supratidal forest’ within the national map. The conceptual basis for these classes is described in the sections above, displayed in Figures 1 and 2, with key parameters described in Table 1. 
-
  
 &nbsp; 
 
