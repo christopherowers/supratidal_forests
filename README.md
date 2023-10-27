@@ -49,8 +49,6 @@ Where there are barriers to tidal inundation (e.g. behind geomorphic features su
 
 A more complex scenario arises in coastal waterbodies which experience intermittent opening to tidal flows, such as intermittently closed and open lakes and lagoons (ICOLLs), or behind anthropogenic structure which manipulate tidal and non-tidal levels (e.g. behind tidal barrages). In these settings, inundation dynamics are controlled by interactions between estuary entrance or structure status (i.e. open or closed) and catchment inflows and evaporation (Figure 2). For example, areas above the highest astronomical tide (HAT) (as defined under open ICOLL conditions in Figure 2a), may experience greater depth and extent of inundation with brackish or fresh waters for periods of time following closure of the entrance (Figure 2b). In these instances, the distribution of supratidal forest may extend to elevations higher than in permanently open settings, with these elevations referred to here as a separate geomorphic class __D. ‘perched’ supratidal forests__. Such changes in water depth and inundation extent have implications for the distribution of supratidal forests across upper intertidal, supratidal and ‘perched’ supratidal elevations, as forest species may respond dynamically - via expansion or contraction - according to inundation and salinity tolerances.
 
-&nbsp;
-
 <img src="figures/FIG2-ICOLL-perched.png" width="" height="800" />
 
 __Figure 2.__ Typical position of supratidal forests and associated ecosystems within intermittently closed and open lakes and lagoons (ICOLLs) during open-entrance conditions (panel a) and closed-entrance conditions (panel b). MSL = mean sea level; HAT = highest astronomical tide; AHD = Australian Height Datum.
@@ -98,13 +96,14 @@ __Figure 5.__ Examples of geomorphic and vegetation classes of supratidal forest
 (f) Mixed _Casuarina glauca_ and _Melaleuca ericifolia_ forests and herbaceous reed/rush understorey inundated during closed estuary entrance conditions, Willinga Lake (ICOLL), NSW  
 (g) _Melaleuca ericifolia_ forest (left) and adjacent coastal saltmarsh (centre) during low water conditions of open estuary entrance conditions, Tilba Tilba Lake (ICOLL), NSW  
 
-&nbsp;
 
 ### Draft typology
 
 The national supratidal forests map generated in this project will provide a binary classification regarding the presence/absence of ‘supratidal forests’, which is undifferentiated on either the basis of vegetation composition or geomorphic classes. Conceptually however, we have identified four broad geomorphic classes of coastal forest which will be captured as ‘supratidal forest’ within the national map. The conceptual basis for these classes is described in the sections above, displayed in Figures 1 and 2, with key parameters described in Table 1. 
+
  
-&nbsp;
+&nbsp; 
+
 
 __Table 1.__ Summary of the geomorphic classes of coastal forested wetland expected to be captured within the national supratidal forest mapping product. HAT = Highest Astronomical Tide; ANAE = Australian National Aquatic Ecosystem.
 
