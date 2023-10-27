@@ -10,6 +10,11 @@
 |__License__| The Apache 2.0 license applies to this open source code. |
 
 
+
+
+
+
+
 ### About
 This repository includes descriptions, scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway) and [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho)
 
@@ -19,7 +24,6 @@ This repository includes descriptions, scripts and notebooks for developing a na
 The lack of continental-wide information on supratidal forests is a significant missing link in knowledge of the distribution of coastal blue carbon ecosystems in Australia. Without the ability to classify supratidal forests using remotely sensed imagery, it is currently not possible to identify where this ecosystem exists across Australia or to track changes over time, including increases in extent from restoration projects. This project will develop a national supratidal forest mapping workflow and associated spatial datasets for Australia. The outputs from this project will align with Australia’s Ocean Accounts, providing a missing piece in national mapping and reporting on Australia’s ocean-based natural assets.
 
 This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise supratidal forests). 
-
 
 ### What are suprtidal forests?
 __*** Note: this description and draft typology will be verified and updated based upon the final national supratidal forest mapping product and collation of associated field datasets ***__
@@ -33,24 +37,25 @@ In estuaries and embayments experiencing tidal exchange, non-mangrove forested w
 
 Seasonal-flooding of forests via rainfall and catchment runoff may occur either in areas subject to occasional surface tides (i.e. geomorphic classes A and B), or in low-lying floodplains and other palustrine wetlands without direct tidal influence (i.e. __‘C. coastal palustrine forest’__). The indirect influence of tides – via the maintenance or raising of high water tables and impedance of drainage – may still act as a hydrological control in this geomorphic sub-type, and so it is included in the broad definition of supratidal forests in this project.
 
+&nbsp;
 
-
-FIGURE 1 IN HERE
+<img src="figures/FIG1-tidal-conceptual.png" width="" height="" />
 
 __Figure 1.__ Typical position of supratidal forests within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal palustrine forest) are presented. MSL = mean sea level; HAT = highest astronomical tide; AHD = Australian Height Datum. 
 
-
+&nbsp;
 
 Where there are barriers to tidal inundation (e.g. behind geomorphic features such as ridges and levees, or anthropogenic features such as floodgates and bund walls), forested wetlands may also occur on coastal floodplains at elevations nearer or below mean sea level and may be subject to sporadic or seasonal flooding (Figure 2). While this specific class of forested wetland is unlikely to be directly influenced by surface tidal inundation, it may be subject to other coastal processes (including indirect influences of tides on the water table).
 
 A more complex scenario arises in coastal waterbodies which experience intermittent opening to tidal flows, such as intermittently closed and open lakes and lagoons (ICOLLs), or behind anthropogenic structure which manipulate tidal and non-tidal levels (e.g. behind tidal barrages). In these settings, inundation dynamics are controlled by interactions between estuary entrance or structure status (i.e. open or closed) and catchment inflows and evaporation (Figure 2). For example, areas above the highest astronomical tide (HAT) (as defined under open ICOLL conditions in Figure 2a), may experience greater depth and extent of inundation with brackish or fresh waters for periods of time following closure of the entrance (Figure 2b). In these instances, the distribution of supratidal forest may extend to elevations higher than in permanently open settings, with these elevations referred to here as a separate geomorphic class __D. ‘perched’ supratidal forests__. Such changes in water depth and inundation extent have implications for the distribution of supratidal forests across upper intertidal, supratidal and ‘perched’ supratidal elevations, as forest species may respond dynamically - via expansion or contraction - according to inundation and salinity tolerances.
 
+&nbsp;
 
-FIGURE 2 IN HERE
+<img src="figures/FIG2-ICOLL-perched.png" width="" height="800" />
 
 __Figure 2.__ Typical position of supratidal forests and associated ecosystems within intermittently closed and open lakes and lagoons (ICOLLs) during open-entrance conditions (panel a) and closed-entrance conditions (panel b). MSL = mean sea level; HAT = highest astronomical tide; AHD = Australian Height Datum.
 
-
+&nbsp;
 
 __(2) Vegetation structure and composition__
 
@@ -62,47 +67,59 @@ Supratidal forests in Australia are typically dominated by one or both of two ge
 
 The genus __*Melaleuca*__ (family: __MYRTACEAE__) incorporates multiple species distributed in the coastal zones of Australia (Figure 3), with some distributions also extending through parts of southeast Asia (Tran et al. 2015). The _Melaleucas_, often collectively termed paperbarks and/or tea trees, may have diverse growth habits and physiological tolerances to inundation and salinity. For example, trees of _M. viridiflora_, _M. cajaputi_ and _M. leucadendra_ of >15 m height may dominate coastal floodplain forests and backswamps in northern Australia (Finlayson 2005, Sloane et al. 2019), whereas shorter stands (including shrubby thickets of just a few metres tall) of M. ericifolia and/or _M. halmaturorum_ (SE Australia) or _M. rhaphiophylla_ and/or _M. cuticularis_ (SW Australia) dominate along temperate coastlines (Carter et al. 2006, Turner et al. 2006).
 
-
-FIGURE 3 IN HERE
+<img src="figures/FIG3-Melalueca-portrait.png" width="" height="1500" />
 
 __Figure 3.__ Distribution records of the dominant species of the genus _Melaleuca_ commonly found within the coastal zone (data source: The Australasian Virtual Herbarium / Atlas of Living Australia; number of records listed in parentheses).
 
+&nbsp;
 
 Coastal Swamp Oak Forests dominated by the genus __*Casuarina*__ (family: _CASUARINACEAE_) forms the landward border of intertidal saltmarshes and/or mangroves, particularly along the east coast of Australia (southern NSW to central QLD) (Boon et al. 2016). Casuarina glauca occurs on low-lying alluvial floodplains distributed along the temperate coast of NSW and the sub-tropical coast of QLD. _Casuarina equisetifolia_ has a native distribution across coastal northeast Australia, whereas Casuarina obesa has a native range predominantly across the southern part of Western Australia (Carter et al. 2006, Kelleway et al. 2022) (Figure 4). Forests and woodlands of the genus Casuarina cover approximately 16,500 km2 of the Australian continent. However, much of this coverage occurs outside coastal catchments. In coastal settings, supratidal forests are normally found at elevations below 5 metres above mean sea level, although this ecological community can be observed at much higher elevations and occasionally within the upper intertidal zone.
 
+&nbsp;
 
-
-FIGURE 4 IN HERE
+<img src="figures/FIG4-Casuarina.png" width="" height="450" />
 
 __Figure 4.__  Distribution records of the dominant salt-tolerant species of the genus Casuarina commonly found within the coastal zone: _C. glauca_, _C. obesa_, _C. equisetifolia_ (data source: The Australasian Virtual Herbarium / Atlas of Living Australia; number of records listed in parentheses). 
 
+&nbsp;
+
 A diversity of other taxa contribute to the tree and shrub flora of supratidal forests in Australia, including other members of MYRTACEAE - e.g. swamp mahogany (_Eucalyptus robusta_), forest red gum (_E. tereticornis_), swamp turpentine (_Lophostemon suaveolens_) – freshwater mangroves (_Barringtonia acutangula_), and a variety of palms (e.g. _Pandanus spiralus_, _Livistonia australis_), among other taxa. Examples of various geomorphic and vegetation classes encountered around Australian coast are presented in Figure 5.
 
+&nbsp;
 
+<img src="figures/FIG5-collage.png" width="" height="1000" />
 
-FIGURE 5 IN HERE
+__Figure 5.__ Examples of geomorphic and vegetation classes of supratidal forest and adjoining ecosystems:  
+(a) Spring tide inundation of _Casuarina glauca_ Swamp Oak Forest (background) and coastal saltmarsh (foreground), Minnamurra River estuary, NSW  
+(b) _Melaleuca_ spp. and _Baringtonia acutangula_ supratidal forest (right) adjacent to coastal saltmarsh (centre) and _Avicennia_ mangrove (left), Mary River estuary, NT  
+(c) _Melaleuca leucadendra_ supratidal forest (background) adjacent to saltmarsh, saltflat and mangrove (foreground), Killaloe, QLD  
+(d) Non-tidal _Melaleuca_ spp. floodplain forest (dry season), Mary River, NT.  
+(e) _Melaleuca_ spp. supratidal forest (background) adjacent to coastal saltmarsh (foreground), Nornalup Inlet, WA  
+(f) Mixed _Casuarina glauca_ and _Melaleuca ericifolia_ forests and herbaceous reed/rush understorey inundated during closed estuary entrance conditions, Willinga Lake (ICOLL), NSW  
+(g) _Melaleuca ericifolia_ forest (left) and adjacent coastal saltmarsh (centre) during low water conditions of open estuary entrance conditions, Tilba Tilba Lake (ICOLL), NSW  
 
-
-__Figure 5.__ Examples of geomorphic and vegetation classes of supratidal forest and adjoining ecosystems:
-(a) Spring tide inundation of _Casuarina glauca_ Swamp Oak Forest (background) and coastal saltmarsh (foreground), Minnamurra River estuary, NSW
-(b) _Melaleuca_ spp. and _Baringtonia acutangula_ supratidal forest (right) adjacent to coastal saltmarsh (centre) and _Avicennia_ mangrove (left), Mary River estuary, NT
-(c) _Melaleuca leucadendra_ supratidal forest (background) adjacent to saltmarsh, saltflat and mangrove (foreground), Killaloe, QLD
-(d) Non-tidal _Melaleuca_ spp. floodplain forest (dry season), Mary River, NT.
-(e) _Melaleuca_ spp. supratidal forest (background) adjacent to coastal saltmarsh (foreground), Nornalup Inlet, WA
-(f) Mixed _Casuarina glauca_ and _Melaleuca ericifolia_ forests and herbaceous reed/rush understorey inundated during closed estuary entrance conditions, Willinga Lake (ICOLL), NSW
-(g) _Melaleuca ericifolia_ forest (left) and adjacent coastal saltmarsh (centre) during low water conditions of open estuary entrance conditions, Tilba Tilba Lake (ICOLL), NSW
-
+&nbsp;
 
 ### Draft typology
 
 The national supratidal forests map generated in this project will provide a binary classification regarding the presence/absence of ‘supratidal forests’, which is undifferentiated on either the basis of vegetation composition or geomorphic classes. Conceptually however, we have identified four broad geomorphic classes of coastal forest which will be captured as ‘supratidal forest’ within the national map. The conceptual basis for these classes is described in the sections above, displayed in Figures 1 and 2, with key parameters described in Table 1. 
  
+&nbsp;
 
-Table 1. Summary of the geomorphic classes of coastal forested wetland expected to be captured within the national supratidal forest mapping product. HAT = Highest Astronomical Tide; ANAE = Australian National Aquatic Ecosystem.
+__Table 1.__ Summary of the geomorphic classes of coastal forested wetland expected to be captured within the national supratidal forest mapping product. HAT = Highest Astronomical Tide; ANAE = Australian National Aquatic Ecosystem.
 
-TABLE 1 IN HERE
+| - | A. Upper intertidal forests | B. Supratidal forests | C. Coastal palustrine forests | D. Perched supratidal forests |
+| - | - | - | - | - |
+| Position relative to tidal frame | intertidal zone | supratidal zone | non-tidal | non-tidal |
+| Lower elevation limit | nil | HAT | nil | nil |
+| Upper elevation limit | HAT | maximum storm-surge/atmospheric anomaly level | maximum flood height | maximum flood height |
+| Drivers of inundation | spring tides, extreme tides (atmospheric anomalies), groundwater | extreme tides (atmospheric anomalies), storm surge, seasonal or non-seasonal flooding, groundwater | seasonal or non-seasonal flooding, groundwater | waterway entrance conditions, seasonal or non-seasonal flooding, groundwater |
+| Expected salinity regime | marine to freshwater; high spatial and/or temporal variability | low salinity to freshwater; high spatial and/or temporal variability | low salinity to freshwater | low salinity to freshwater |
+| ANAE Level 3 Aquatic Classes | Marine or Estuarine | Estuarine or Palustrine or Floodplain | Palustrine or Floodplain | Palustrine or Floodplain |
+| Global Ecosystem Typology | MFT1.2 Intertidal Forests and Shrublands | TF1.1 Tropical Flooded Forests and Peat Forests; TF1.2 Subtropical/Temperate Forested Wetlands | TF1.1 Tropical Flooded Forests and Peat Forests; TF1.2 Subtropical/Temperate Forested Wetlands | TF1.1 Tropical Flooded Forests and Peat Forests; TF1.2 Subtropical/Temperate Forested Wetlands |
 
 
+&nbsp;
 
 ### Interaction with existing classification and typology schemes
 
@@ -110,12 +127,12 @@ The Interim [Australian National Aquatic Ecosystem (ANAE) Classification Framewo
 
 The diverse nature of Australia’s supratidal forests also makes simple alignment with new [IUCN Global Ecosystem Typology](https://www.iucn.org/resources/conservation-tool/iucn-global-ecosystem-typology) challenging, as various Australia settings might be variously categorised under multiple realms and functional groups based upon their landscape position and climatic zone (Table 1):
 
-Realm: MFT Marine-Freshwater-Terrestrial
-    •	MFT1.2 Intertidal forests and shrublands
+Realm: MFT Marine-Freshwater-Terrestrial  
+- MFT1.2 Intertidal forests and shrublands  
     
-Realm: TF Terrestrial-Freshwater
-    •	TF1.1Tropical flooded forests and peat forests
-    •	TF1.2Subtropical/temperate forested wetlands
+Realm: TF Terrestrial-Freshwater  
+- TF1.1 Tropical flooded forests and peat forests  
+- TF1.2 Subtropical/temperate forested wetlands  
 
 We expect that the completion of the revised national supratidal forest mapping product and analysis of this in the context of existing ecological and other mapping products (e.g. state-based vegetation community mapping products) will lead to improvements overlay and collation of associated field datasets.
 
@@ -126,13 +143,12 @@ While analogous settings are likely to occur along similar coastlines globally, 
 
 
 ### How can we map them?
+
 Supratidal forests in Australia are mapped within the coastal areas defined by Geoscience Australia (ga_summary_grid_c3_coastal.geojson). Datasets used to map the supratidal forests at continental scale include; i) SRTM elevation, ii) Intertidal and subtidal areas, iii) Mangrove areas and iv) Woody vegetation cover. These datasets are either direct or derived GA’s datacube products.
 
 SRTM elevation is used due to its spatial completeness and derived from GA’s SRTM 1 arc-second DEM (ga_srtm_dem1sv1_0). Intertidal and subtidal areas are derived from GA’s Intertidal Extents Model (Items_v2). Mangrove areas are derived from GA’s Landsat Mangrove Cover (ga_ls_mangrove_cover_cyear_3) for the calendar year 2020. The Woody vegetation cover layer is derived from a machine learning approach. This approach uses the best available data for annual Landsat 5 (ga_ls5t_nbart_gm_cyear_3), 7 (ga_ls7e_nbart_gm_cyear_3) and 8 (ga_ls8c_nbart_gm_cyear_3) products and a Random Forest averaging algorithm based on randomized decision trees. The main parameters of the random forest regressor are set to:  max_features = 'auto'; min_impurity_decrease = 0; min_samples_leaf = 50; min_weight_fraction_leaf = 0; random_state = 20. A threshold of 0.5 - 1 is applied to the woody vegetation dataset to only select vegetation pixels which have at least 50% probability of being ‘woody’.
 
 Mapping of Supratidal forests occur in woody vegetated areas where elevation is between 1 and 10 m above Australian Height Datum (approximately mean sea level), excluding other woody vegetation such as mangroves and intertidal and subtidal areas.
-
-
 
 ### Publications
 Below is a reference list of publications on supratidal forests for more information on this unique coastal ecosystem
@@ -142,7 +158,6 @@ Adame et al., 2019 [Carbon and Nitrogen Sequestration of Melaleuca Floodplain We
 Keith and Scott, 2005 [Native vegetation of coastal floodplains? A diagnosis of the major plant communities in New South Wales](https://www.publish.csiro.au/pc/pc050081)
 
 Kelleway et al., 2021 [Carbon Storage in the Coastal Swamp Oak Forest Wetlands of Australia](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/9781119639305.ch18)
-
 
 ### References
 Aquatic Ecosystems Task Group. 2012. Aquatic Ecosystems Toolkit. Module 2. Interim Australian National Aquatic Ecosystem Classification Framework. Australian Government Department of Sustainability, Environment, Water, Population and Communities, Canberra.
