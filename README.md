@@ -9,22 +9,24 @@
 |__Disclaimer__| This repository is *in development*, use at your own risk |
 |__License__| The Apache 2.0 license applies to this open source code. |
 
-### About
+### 1. About
 This repository includes descriptions, scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
 
-### Project Background
+### 2. Project Background
 ‘Supratidal forests’ is a term which has emerged among the coastal wetland research and management community in Australia to define a broadly-distributed group of coastal ecosystems on the basis of their (1) __position within the coastal landscape__ and (2) __vegetation structure__. Research to-date suggests supratidal forests may play important roles in the cycling and storage of carbon and nutrients in the coastal zone (Adame et al. 2019, Iram et al. 2021, Kelleway et al. 2021), among other ecosystem services. Supratidal forests have been subjected to significant historic losses and land-use pressures (Keith and Scott 2005, Boon et al. 2016). Their low-lying position within the coastal zone – where catchment, aquatic and anthropogenic processes interact - may make supratidal forests particularly susceptible to changes in inundation and/or salinization (Saintilan et al. 2018, Conroy et al. 2022).
 
 The lack of continental-wide information on supratidal forests is a significant missing link in knowledge of the distribution of coastal blue carbon ecosystems in Australia. Without the ability to classify supratidal forests using remotely sensed imagery, it is currently not possible to identify where this ecosystem exists across Australia or to track changes over time, including increases in extent from restoration projects. This project will develop a national supratidal forest mapping workflow and associated spatial datasets for Australia. The outputs from this project will align with Australia’s Ocean Accounts, providing a missing piece in national mapping and reporting on Australia’s ocean-based natural assets.
 
 This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise supratidal forests). 
 
-### What are suprtidal forests?
+### 3. What are suprtidal forests?
 __*** Note: this description and draft typology will be verified and updated based upon the final national supratidal forest mapping product and collation of associated field datasets ***__
+
+#### 3.1 Conceptual definition
 
 Supratidal forests have been defined and differentiated from other coastal ecosystems on the basis of their position within the coastal landscape (i.e. typically occurring at higher elevations than mangrove forests, and lower elevations than ‘terrestrial’ forests) and vegetation structure (i.e. trees and tall shrubs contrasting the vegetation structure of herbaceous marshes or unvegetated flats which may also occupy similar or adjacent elevation ranges). These two factors are explored in further detail below, with examples encountered in Australian settings. While multiple geomorphic and vegetation classes are described, the Australian Supratidal Forest map generated in this project will provide a binary classification regarding the presence/absence of ‘supratidal forests’ (i.e. inclusive of, but undifferentiated on the basis of geomorphic or vegetation composition classes).
 
-__(1) Position within the coastal landscape__
+(1) Position within the coastal landscape
 
 Forested wetlands exist across multiple landscape positions within the coastal zone, including intertidal, supratidal, non-tidal, riverine and floodplain settings (Figure 1). In some instances, this may include distributions at or below mean sea level, depending on natural and/or anthropogenic barriers to inundation. Little to no quantification of salinity regimes is available for most supratidal forest settings in Australia, though spatial and temporal variability is expected across the settings described above. Groundwater is also likely to play a significant and potentially variable role in the distribution and composition of forests in the coastal zone, however there are significant challenges associated with its use in mapping products. For these reasons, the description of geomorphic classes below currently focuses on variables of elevation and inundation and does not explicitly consider salinity or groundwater dynamics.
 In estuaries and embayments experiencing tidal exchange, non-mangrove forested wetlands may include distribution within the highest elevations of the intertidal zone (i.e. __‘A. upper intertidal forest’__ in Figure 1), though more typically occur at elevations at or above the highest astronomical tide in the estuarine fringe at supratidal elevations (i.e. __‘B. supratidal forest’__). In these supratidal elevations, wetlands may be influenced by storm surges and tidal anomalies associated with weather conditions (e.g. anomalies in atmospheric pressure and/or winds) which result in higher than expected tides.
@@ -49,7 +51,7 @@ __Figure 2.__ Typical position of supratidal forests and associated ecosystems w
 
 &nbsp;
 
-__(2) Vegetation structure and composition__
+(2) Vegetation structure and composition
 
 Supratidal forests occur within the geomorphic positions described above, across low-energy settings of many coastlines and estuaries around Australia. This includes distributions across tropical, sub-tropical and temperate climatic zones, though little to no distribution is expected along semi-arid and arid coastlines where unvegetated flats and/or small-statured succulents dominate the supratidal zone. 
 
@@ -93,10 +95,19 @@ __Figure 5.__ Examples of geomorphic and vegetation classes of supratidal forest
 
 &nbsp; 
 
+#### 3.2 Mapping definition
 
-### Draft typology
+A initial continental-scale mapping workflow for supratidal and associated coastal forested wetlands has been developed which is inclusive of the multiple landscape position and vegetation features described in the conceptual definition above. This workflow is currently being refined, but includes three key parameters by which areas will be defined as supratidal and associated coastal forested wetlands in the mapping product: 
+1.	Woody or forested vegetation, as defined by exceedance of a ‘woody cover’ threshold using nationally-available remote sensing products;
+2.	Landscape position within the coastal zone and a suitable elevation envelope (i.e. upper and/or lower elevation thresholds);
+3.	Not mapped as mangrove (or saltmarsh) under existing nationally-available mapping products.
 
-The national supratidal forests map generated in this project will provide a binary classification regarding the presence/absence of ‘supratidal forests’, which is undifferentiated on either the basis of vegetation composition or geomorphic classes. Conceptually however, we have identified four broad geomorphic classes of coastal forest which will be captured as ‘supratidal forest’ within the national map. The conceptual basis for these classes is described in the sections above, displayed in Figures 1 and 2, with key parameters described in Table 1. 
+The national supratidal forests map generated in this project will therefore provide a binary classification regarding the presence/absence of supratidal and associated coastal forested wetlands, which is undifferentiated on either the basis of vegetation composition or geomorphic classes.
+
+
+### 4. Draft typology
+
+We have identified four broad geomorphic classes of coastal forested wetland which will be captured (though undifferentiated) within the new national mapping product. The conceptual basis for these classes is described in the sections above, displayed in Figures 1 and 2, with key parameters described in Table 1.
  
 &nbsp; 
 
@@ -116,7 +127,7 @@ __Table 1.__ Summary of the geomorphic classes of coastal forested wetland expec
 
 &nbsp;
 
-### Interaction with existing classification and typology schemes
+### 5. Interaction with existing classification and typology schemes
 
 The Interim [Australian National Aquatic Ecosystem (ANAE) Classification Framework](https://www.dcceew.gov.au/water/cewo/monitoring/aquatic-ecosystems-toolkit) is a broad-scale and attribute-based scheme for classifying aquatic ecosystems in a nationally-consistent manner. The draft typology presented here, broadly aligns with Level 3 categorisation of aquatic ecosystems into marine, estuarine, lacustrine, palustrine, riverine, floodplain, and subterranean classes; and the use of elevation markers such as Highest Astronomical Tide (HAT) as a key discriminant among classes. We expect coastal forested wetlands within marine, estuarine, palustrine and floodplain classes may be among the diversity of settings included in the national supratidal forest map (Table 1). There may be some inconsistencies, however – for example, ‘supratidal’ elevations are an included water depth class within marine/estuarine classes of the ANAE (following the National Intertidal Subtidal Benthic Habitat Classification Scheme), despite HAT (i.e. our lower limit of the supratidal zone) being used as the upper limit of marine/estuarine classes (Aquatic Ecosystems Task Group, 2012). The definition of an upper salinity threshold of 0.5‰ for palustrine settings may also be inconsistent with some ‘coastal palustrine forests’ and ‘perched supratidal forests’ in our mapping product, which might be subject at times to considerably higher salinity conditions. It is also noted that the ANAE is still considered an interim product in need of further revision (Aquatic Ecosystems Task Group, 2012).
 
@@ -132,20 +143,11 @@ Realm: TF Terrestrial-Freshwater
 We expect that the completion of the revised national supratidal forest mapping product and analysis of this in the context of existing ecological and other mapping products (e.g. state-based vegetation community mapping products) will lead to improvements overlay and collation of associated field datasets.
 
 
-### Relationship with other ecosystems globally
+### 6. Relationship with other ecosystems globally
 
 While analogous settings are likely to occur along similar coastlines globally, the term supratidal forest has not been broadly used outside of Australia, with some exceptions (Huntley et al. 2019, Peterson et al. 2020). Broad terminology such as ‘tidal forests’ and ‘coastal freshwater wetlands’ have been reported occasionally (Doyle et al. 2010, Grieger et al. 2020), though more specific/restrictive terms (such as tidal freshwater forested wetlands) or regionally-specific names are commonly referred to (Krauss et al. 2018). In all instances, these existing terms are considered insufficiently inclusive, or are not-locally relevant, for application across the diversity of settings present along Australia’s coasts.
 
-### Publications
-Below is a reference list of publications on supratidal forests for more information on this unique coastal ecosystem
-
-Adame et al., 2019 [Carbon and Nitrogen Sequestration of Melaleuca Floodplain Wetlands in Tropical Australia](https://link.springer.com/article/10.1007/s10021-019-00414-5)
-
-Keith and Scott, 2005 [Native vegetation of coastal floodplains? A diagnosis of the major plant communities in New South Wales](https://www.publish.csiro.au/pc/pc050081)
-
-Kelleway et al., 2021 [Carbon Storage in the Coastal Swamp Oak Forest Wetlands of Australia](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/9781119639305.ch18)
-
-### References
+### 7. References
 Aquatic Ecosystems Task Group. 2012. Aquatic Ecosystems Toolkit. Module 2. Interim Australian National Aquatic Ecosystem Classification Framework. Australian Government Department of Sustainability, Environment, Water, Population and Communities, Canberra.
 
 Adame, M. F., R. Reef, V. N. L. Wong, S. R. Balcombe, M. P. Turschwell, E. Kavehei, D. C. Rodríguez, J. J. Kelleway, P. Masque, and M. Ronan. 2019. Carbon and Nitrogen Sequestration of Melaleuca Floodplain Wetlands in Tropical Australia. Ecosystems 23:454-466.
