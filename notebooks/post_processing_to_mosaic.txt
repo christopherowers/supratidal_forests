@@ -11,3 +11,16 @@ gdal_translate -of GTiff -co "COMPRESS=LZW" -co "TILED=YES" -co "BIGTIFF=YES" in
 python gdalcalcstats int_STF_2020.vrt
 
 # 4. open .vrt in QGIS
+
+
+## for SCF_<elevation, connectivity, extent>_model
+# from DEA sandbox
+1. tar -czvf SCF_extent_model_v1.tar.gz *.tif
+
+# on local conda env mosaic_postprocess
+2. gdalbuildvrt -o SCF_extent_model.vrt *.tif
+
+# make cog
+3. gdal_translate -of COG -co "COMPRESS=LZW" -co OVERVIEW_RESAMPLING=NEAREST SCF_extent_model.vrt SCF_extent_model_cog.tif
+
+# make qgis layer file for colour ramp
