@@ -21,6 +21,6 @@ python gdalcalcstats int_STF_2020.vrt
 2. gdalbuildvrt -o SCF_extent_model.vrt *.tif
 
 # make cog
-3. gdal_translate -of COG -co "COMPRESS=LZW" -co OVERVIEW_RESAMPLING=NEAREST SCF_extent_model.vrt SCF_extent_model_cog.tif
+3. gdal_translate -of COG -co "COMPRESS=LZW" -co OVERVIEW_RESAMPLING=NEAREST SCF_extent_model.vrt SCF_extent_model.tif
 
 # make qgis layer file for colour ramp
