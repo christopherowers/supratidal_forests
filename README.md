@@ -1,4 +1,4 @@
-![SCF](figures)
+![SCF](figures/Top_animation.gif)
 
 #  Supratidal Forests
 
