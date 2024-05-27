@@ -1,6 +1,6 @@
 ![SCF](figures/Top_animation.gif)
 
-#  Supratidal and Coastal FLoodplain Forests
+#  Supratidal and Coastal Floodplain forests
 
 ### National mapping of Australia's Supratidal and Coastal Floodplain forests
 
@@ -58,7 +58,7 @@ Seasonal-flooding of forests via rainfall and catchment runoff may occur either 
 
 &nbsp;
 
-<img src="figures/FIG1-tidal-conceptual.png" width="" height="" />
+<img src="figures/FIG1_STF_conceptual_2024.jpg" width="" height="" />
 
 __Figure 1.__ Typical position of SCF forests within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal floodplain forest) are presented. MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum. 
 
@@ -182,9 +182,9 @@ A supratidal extent model has been developed to provide a map of potential supra
 
 &nbsp;
 
-<img src="figures/FIG1-tidal-conceptual.png" width="" height="" />
+<img src="figures/FIG6_SCF_extent_model.jpg" width="" height="" />
 
-__Figure XX.__ Typical position of supratidal forests within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal palustrine forest) are presented. MSL = mean sea level; HAT = highest astronomical tide; AHD = Australian Height Datum. 
+__Figure 6.__ Normalised Supratidal extent model based on elevation and connectivity models. 
 
 &nbsp;
 
@@ -195,9 +195,9 @@ Elevation model workflow will therefore use a scaling factor based on HAT, SS an
 
 &nbsp;
 
-<img src="figures/FIG1-tidal-conceptual.png" width="" height="" />
+<img src="figures/FIG7_Elevation.jpg" width="" height="" />
 
-__Figure XX.__ Typical position of supratidal forests within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal palustrine forest) are presented. MSL = mean sea level; HAT = highest astronomical tide; AHD = Australian Height Datum. 
+__Figure 7.__ Simplified flowchart showing datasets used to develop the Elevation model. 
 
 &nbsp;
 
@@ -207,7 +207,13 @@ The connectivity model comprises the second component of the potential supratida
 The premise behind is that supratidal and floodplain forests are connected to waterways and water bodies
 Our approach creates an aquatic layer combining several datasets  (WoFs, ITEM, Mangrove, Saltmarsh, Saltflat and Streams) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation
 
+&nbsp;
 
+<img src="figures/FIG8_Connectivity.jpg" width="" height="" />
+
+__Figure 8.__ Simplified flowchart showing datasets used to develop the Connectivity model. 
+
+&nbsp;
 
 ---
 
