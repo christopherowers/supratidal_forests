@@ -1,8 +1,8 @@
 ![SCF](figures/Top_animation.gif)
 
-#  Supratidal and Coastal Floodplain forests
+#  Supratidal and Coastal Floodplain Forests
 
-### National mapping of Australia's Supratidal and Coastal Floodplain forests
+### National mapping of Australia's Supratidal and Coastal Floodplain Forests
 
 #
 
@@ -12,7 +12,7 @@
 |__License__| The Apache 2.0 license applies to this open source code. |
 
 ### About
-This repository includes descriptions, scripts and notebooks for developing a national Supratidal and Coastal FLoodplain forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
+This repository includes descriptions, scripts and notebooks for developing a national __*Supratidal and Coastal Floodplain Forest*__ extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
 
 ---
 
@@ -34,27 +34,27 @@ This repository includes descriptions, scripts and notebooks for developing a na
 ---
 
 ### Project background
-‘Supratidal and Coastal Floodplain (SCF) forests’ is a term which has emerged among the coastal wetland research and management community in Australia to define a broadly-distributed group of coastal ecosystems on the basis of their (1) __position within the coastal landscape__ and (2) __vegetation structure__. Research to-date suggests these forests may play important roles in the cycling and storage of carbon and nutrients in the coastal zone (Adame et al. 2019, Iram et al. 2021, Kelleway et al. 2021), among other ecosystem services. SCF forests have been subjected to significant historic losses and land-use pressures (Keith and Scott 2005, Boon et al. 2016). Their low-lying position within the coastal zone – where catchment, aquatic and anthropogenic processes interact - may make these forests particularly susceptible to changes in inundation and/or salinization (Saintilan et al. 2018, Conroy et al. 2022).
+‘Supratidal forests’ is a term which has emerged among the coastal wetland research and management community in Australia to define a broadly-distributed group of coastal ecosystems on the basis of their (1) __position within the coastal landscape__ and (2) __vegetation structure__. Research to-date suggests these forests may play important roles in the cycling and storage of carbon and nutrients in the coastal zone (Adame et al. 2019, Iram et al. 2021, Kelleway et al. 2021), among other ecosystem services. Supratidal and associated floodplain forests of the coastal zone have been subjected to significant historic losses and land-use pressures (Keith and Scott 2005, Boon et al. 2016). Their low-lying position within the coastal zone – where catchment, aquatic and anthropogenic processes interact - may make these forests particularly susceptible to changes in inundation and/or salinization (Saintilan et al. 2018, Conroy et al. 2022).
 
-The lack of continental-wide information on SCF forests is a significant missing link in knowledge of the distribution of coastal blue carbon ecosystems in Australia. Without the ability to classify these forests using remotely sensed imagery, it is currently not possible to identify where this ecosystem exists across Australia or to track changes over time, including increases in extent from restoration projects. This project will develop a national SCF forest mapping workflow and associated spatial datasets for Australia. The outputs from this project will align with Australia’s Ocean Accounts, providing a missing piece in national mapping and reporting on Australia’s ocean-based natural assets.
+The lack of continental-wide information on supratidal forests is a significant missing link in knowledge of the distribution of coastal blue carbon ecosystems in Australia. Without the ability to classify these forests using remotely sensed imagery, it is currently not possible to identify where this ecosystem exists across Australia or to track changes over time, including increases in extent from restoration projects. This project will develop a national __*Supratidal and Coastal FLoodplain (SCF) Forest*__ mapping workflow and associated spatial datasets for Australia. The outputs from this project will align with Australia’s Ocean Accounts, providing a missing piece in national mapping and reporting on Australia’s ocean-based natural assets.
 
-This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise SCF forests). 
+This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise __*SCF Forests#__). 
 
 ---
 
-### What are Supratidal and Coastal Floodplain forests?
-__*** Note: this description and draft typology will be verified and updated based upon the final national SCF forest mapping product and collation of associated field datasets ***__
+### What are Supratidal and Coastal Floodplain Forests?
+__*** Note: this description and draft typology will be verified and updated based upon the final national SCF Forest mapping product and collation of associated field datasets ***__
 
 #### Conceptual definition
 
-Supratidal forests have been defined and differentiated from other coastal ecosystems on the basis of their position within the coastal landscape (i.e. typically occurring at higher elevations than mangrove forests, and lower elevations than ‘terrestrial’ forests) and vegetation structure (i.e. trees and tall shrubs contrasting the vegetation structure of herbaceous marshes or unvegetated flats which may also occupy similar or adjacent elevation ranges). These two factors are explored in further detail below, with examples encountered in Australian settings. While multiple geomorphic and vegetation classes are described, the Australian SCF forest map generated in this project will provide a binary classification regarding the presence/absence of ‘SCF forests’ (i.e. inclusive of, but undifferentiated on the basis of geomorphic or vegetation composition classes).
+Supratidal forests have been defined and differentiated from other coastal ecosystems on the basis of their position within the coastal landscape (i.e. typically occurring at higher elevations than mangrove forests, and lower elevations than ‘terrestrial’ forests) and vegetation structure (i.e. trees and tall shrubs contrasting the vegetation structure of herbaceous marshes or unvegetated flats which may also occupy similar or adjacent elevation ranges). There are both conceptual and technical challenges which prevent the clear separation of ‘supratidal forests’ from other low-lying ‘coastal floodplain forests’ in the coastal zone, which have necessitated their pooling together in a __*Supratidal and Coastal Floodplain Forest*__ map. These factors are explored in further detail below, with examples encountered in Australian settings. While multiple geomorphic and vegetation classes are described, the Australian __*SCF Forest*__ map generated in this project will provide an index which reflects the likelihood of ‘__*SCF Forests*__’ (i.e. inclusive of, but undifferentiated on the basis of geomorphic or vegetation composition classes).
 
 (1) Position within the coastal landscape
 
-Forested wetlands exist across multiple landscape positions within the coastal zone, including intertidal, supratidal, non-tidal, riverine and floodplain settings (Figure 1). In some instances, this may include distributions at or below mean sea level, depending on natural and/or anthropogenic barriers to inundation. Little to no quantification of salinity regimes is available for most SCF forest settings in Australia, though spatial and temporal variability is expected across the settings described above. Groundwater is also likely to play a significant and potentially variable role in the distribution and composition of forests in the coastal zone, however there are significant challenges associated with its use in mapping products. For these reasons, the description of geomorphic classes below currently focuses on variables of elevation and inundation and does not explicitly consider salinity or groundwater dynamics.
+Forested wetlands exist across multiple landscape positions within the coastal zone, including intertidal, supratidal, non-tidal, riverine and floodplain settings (Figure 1). In some instances, this may include distributions at or below mean sea level, depending on natural and/or anthropogenic barriers to inundation. Little to no quantification of salinity regimes is available for most supratidal forest or non-tidal coastal floodplain forest settings in Australia, though spatial and temporal variability is expected across the settings described above. Groundwater is also likely to play a significant and potentially variable role in the distribution and composition of forests in the coastal zone, however there are significant challenges associated with its use in mapping products. For these reasons, the description of geomorphic classes below currently focuses on variables of elevation and inundation and does not explicitly consider salinity or groundwater dynamics.
 In estuaries and embayments experiencing tidal exchange, non-mangrove forested wetlands may include distribution within the highest elevations of the intertidal zone (i.e. __‘A. upper intertidal forest’__ in Figure 1), though more typically occur at elevations at or above the highest astronomical tide in the estuarine fringe at supratidal elevations (i.e. __‘B. supratidal forest’__). In these supratidal elevations, wetlands may be influenced by storm surges and tidal anomalies associated with weather conditions (e.g. anomalies in atmospheric pressure and/or winds) which result in higher than expected tides.
 
-Seasonal-flooding of forests via rainfall and catchment runoff may occur either in areas subject to occasional surface tides (i.e. geomorphic classes A and B), or in low-lying floodplains and other palustrine wetlands without direct tidal influence (i.e. __‘C. coastal floodplain forest’__). The indirect influence of tides – via the maintenance or raising of high water tables and impedance of drainage – may still act as a hydrological control in this geomorphic sub-type, and so it is included in the broad definition of supratidal forests in this project.
+Seasonal-flooding of forests via rainfall and catchment runoff may occur either in areas subject to occasional surface tides (i.e. geomorphic classes A and B), or in low-lying floodplains and other palustrine wetlands without direct tidal influence (i.e. __‘C. coastal floodplain forest’__). The indirect influence of tides – via the maintenance or raising of high water tables and impedance of drainage – may still act as a hydrological control in this geomorphic sub-type, and so it is included in the broad definition of __*SCF Forests*__ in this project.
 
 &nbsp;
 
@@ -190,8 +190,13 @@ __Figure 6.__ Normalised Supratidal extent model based on elevation and connecti
 
 #### Elevation model
 
-The elevation model comprises the first components of the potential supratidal and coastal floodplain extent model
-Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (10 m AHD)
+The elevation model comprises the first components of the potential supratidal and coastal floodplain extent model. It is based on the premise that SCF forests occur in upper intertidal and supritidal areas.
+Greatest confidence placed to elevations up to High Astronomical Tide (HAT). Decreasing confidence to areas above HAT which are subject to Storm Surges (SS). Further decreasing confidence assigned to the upper limit of 10 m AHD.
+
+Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (10 m AHD). Pixels located within the HAT elevations are assigned the greatest confidence level of 1. Pixels located within the HAT + SS elevations are assigned confidence levels of 0.5 to 0.99. Pixels located higher than the latter and lower than 10 m AHD are assigned the lowest confidense level (0 - 0.49).
+
+HAT is based on the work of P. Branson from CSIRO (LINK). Four hypotetical latitudinal gradients were created based on the literature to account for SS maximums, given that no collated data exists for the continent.
+A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further south. The state of QLD was splitted in three equally distributed latitudinal areas. The southern-most was assigned a SS of 1.5 m, the northern-most was assigned a SS of 3.5 m and the middle latitudinal area was assigned a SS of 2.5 m.
 
 &nbsp;
 
@@ -203,9 +208,9 @@ __Figure 7.__ Simplified flowchart showing datasets used to develop the Elevatio
 
 #### Connectivity model
 
-The connectivity model comprises the second component of the potential supratidal and coastal floodplain extent model
-The premise behind is that supratidal and floodplain forests are connected to waterways and water bodies
-Our approach creates an aquatic layer combining several datasets  (WoFs, ITEM, Mangrove, Saltmarsh, Saltflat and Streams) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation
+The connectivity model comprises the second component of the potential supratidal and coastal floodplain extent model.
+The premise behind is that supratidal and floodplain forests are connected to waterways and water bodies.
+Our approach creates an aquatic layer combining several datasets  (WoFs, ITEM, Mangrove, Saltmarsh, Saltflat and Streams) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation.
 
 &nbsp;
 
@@ -232,7 +237,7 @@ __Table 2.__ Summary of input datasets used in our mapping products.
 | Intertidal extents model (ITEM) | It determines the intertidal extent and topography of Australia’s coast	| Part of aquatic layer to mask both connectivity model and elevation confidence level model | One-off (developed over 1987-2016) | 25 m pixel; In small intertidal zones in microtidal and/or steep sloping tidal regions; no below canopy mapping | [Sagar et al., 2017](https://doi.org/10.1016/j.rse.2017.04.009) |
 | Water observation from space (WOfS)	| It determines water bodies and major rivers from Landsat imagery |	Part of aquatic layer to mask both connectivity model and elevation confidence level model | Multi-temporal (Annual; 1987 to present)	| 25 m pixel; Reduced water classification accuracy in swamps (63%) and water vegetation mix (74%) | DEA; [Mueller et al., 2016](https://doi.org/10.1016/j.rse.2015.11.003) |
 | Mangrove	| Continental-scale coastal vegetation dataset |	Vegetation removed from forest model; Part of aquatic layer to mask both connectivity model and elevation confidence level model | Multi-temporal (Annual; 1987-2022)	| 25 m pixel; Inaccuracies in areas such as the seaward edge fringe	| DEA; [Lymburner et al., 2020](https://doi.org/10.1016/j.rse.2019.05.004) |
-| Saltmarsh	| Continental-scale coastal vegetation dataset | Part of aquatic layer to mask the connectivity model	| One-off (2020)	| 30 m pixel; Two running models: North only deals with winter and South only deals with summer data	| JCU; Australian [Saltmarsh Map](https://saltmarshes.org)
+| Saltmarsh	| Continental-scale coastal vegetation dataset | Part of aquatic layer to mask the connectivity model	| One-off (2020)	| 30 m pixel; Two running models: North only deals with winter and South only deals with summer data	| JCU; [Australian Saltmarsh Map](https://saltmarshes.org)
 | Saltflat | Global-scale coastal ecosystem dataset |	Part of aquatic layer to mask the connectivity model | Multi-temporal (11 three-year time series; i.e. 1984-1986 … 2014-2016)	| 30 m pixel; Overall map accuracy of 82%	| JCU; [Murray et al., 2018](https://doi.org/10.1038/s41586-018-0805-8)
 | Australian hydrological geospatial fabric (Geofabric)	| Continental-scale stream network vector dataset	| Part of aquatic layer to mask the connectivity model	| One-off (based on 2000 SRTM)	| Based on 30 m pixel SRTM	| [Atkinson et al., 2008](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8bdbb0d513123d005ed8f81682483039a6ec3ebb) |
 
