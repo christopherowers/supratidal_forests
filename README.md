@@ -182,20 +182,43 @@ A supratidal extent model has been developed to provide a map of potential supra
 
 #### 7.1 Elevation model
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxx
+The elevation model comprises the first components of the potential supratidal and coastal floodplain extent model
+Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (10 m AHD)
+
+
 
 #### 7.2 Connectivity model
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxx
+The connectivity model comprises the second component of the potential supratidal and coastal floodplain extent model
+The premise behind is that supratidal and floodplain forests are connected to waterways and water bodies
+Our approach creates an aquatic layer combining several datasets  (WoFs, ITEM, Mangrove, Saltmarsh, Saltflat and Streams) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation
+
+
 
 ---
 
 ### 8. Temporal changes to SCF forests
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Current workflow can be scaled to national level by user for years between 1990-2020. However, these outputs only modify some of the annual input products (e.g. Woody Cover Fraction, Water Observations from Space, DEA Mangroves) described in Table 2.
+
+&nbsp; 
+
+
+__Table 2.__ Summary of input datasets used in our mapping products.
+
+| Dataset | Why is used | How is used | Temporal consistency | Limitation | Source |
+| - | - | - | - | - | - |
+| Suttle Radar Topography Mission (SRTM) | Best continental-scale elevation dataset available | Hydrologically Enforced DEM (DEM-H); Elevation < 10 m AHD | One-off (2000) | One-off (2000) | DEA; [Wilson et al. 2011](https://pid.geoscience.gov.au/dataset/ga/71498) |
+| Woody Cover Fraction (WCF) | Continental-scale predictor of woody canopy cover | To map the woody portion of the vegetation; >0.5 WCF <1 | Multi-temporal (Annual; 2000 to 2018); Ability to run model up to 2022| 25 m pixel; Underestimation over nearly closed canopy | [Liao et al., 2020](https://doi.org/10.1016/j.jag.2020.102209) |
+| Intertidal extents model (ITEM) | It determines the intertidal extent and topography of Australia’s coast	| Part of aquatic layer to mask both connectivity model and elevation confidence level model | One-off (developed over 1987-2016) | 25 m pixel; In small intertidal zones in microtidal and/or steep sloping tidal regions; no below canopy mapping | [Sagar et al., 2017](https://doi.org/10.1016/j.rse.2017.04.009) |
+| Water observation from space (WOfS)	| It determines water bodies and major rivers from Landsat imagery |	Part of aquatic layer to mask both connectivity model and elevation confidence level model | Multi-temporal (Annual; 1987 to present)	| 25 m pixel; Reduced water classification accuracy in swamps (63%) and water vegetation mix (74%) | DEA; [Mueller et al., 2016](https://doi.org/10.1016/j.rse.2015.11.003) |
+| Mangrove	| Continental-scale coastal vegetation dataset |	Vegetation removed from forest model; Part of aquatic layer to mask both connectivity model and elevation confidence level model | Multi-temporal (Annual; 1987-2022)	| 25 m pixel; Inaccuracies in areas such as the seaward edge fringe	| DEA; [Lymburner et al., 2020](https://doi.org/10.1016/j.rse.2019.05.004) |
+| Saltmarsh	| Continental-scale coastal vegetation dataset | Part of aquatic layer to mask the connectivity model	| One-off (2020)	| 30 m pixel; Two running models: North only deals with winter and South only deals with summer data	| JCU; Australian [Saltmarsh Map](https://saltmarshes.org)
+| Saltflat | Global-scale coastal ecosystem dataset |	Part of aquatic layer to mask the connectivity model | Multi-temporal (11 three-year time series; i.e. 1984-1986 … 2014-2016)	| 30 m pixel; Overall map accuracy of 82%	| JCU; [Murray et al., 2018](https://doi.org/10.1038/s41586-018-0805-8)
+| Australian hydrological geospatial fabric (Geofabric)	| Continental-scale stream network vector dataset	| Part of aquatic layer to mask the connectivity model	| One-off (based on 2000 SRTM)	| Based on 30 m pixel SRTM	| [Atkinson et al., 2008](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8bdbb0d513123d005ed8f81682483039a6ec3ebb) |
+
+
+&nbsp;
+
 
 ---
 
