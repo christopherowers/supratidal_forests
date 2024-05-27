@@ -1,3 +1,5 @@
+![SCF](figures)
+
 #  Supratidal Forests
 
 ### National mapping of Australia's Supratidal forests
@@ -12,6 +14,25 @@
 ### 1. About
 This repository includes descriptions, scripts and notebooks for developing a national supratidal forest extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
 
+---
+
+### Table of contents
+- [About](#About)
+- [Project background](#project-background)
+- [What are SCF forests?](#what-are-supratidal-forests?)
+  - [Conceptual definition](#conceptual-definition)
+  - [Mapping definition](#mapping-definition)
+- [Typology](#typology)
+- [Interaction with existing classifications and typology schemes](#interaction-with-existing-classification-and-typology-schemes)
+- [Relationship with other ecosystems globally](#relationship-with-other-ecosystems-globally)
+- [SCF habitats - extent model](#scf-habitats---extent-model)
+  - [Elevation model](#elevation-model)
+  - [Connectivity model](#connectivity-model)
+- [Temporal changes to SCF forests](#temporal-changes-to-SCF-forests)
+- [References](#references)
+
+---
+
 ### 2. Project Background
 ‘Supratidal forests’ is a term which has emerged among the coastal wetland research and management community in Australia to define a broadly-distributed group of coastal ecosystems on the basis of their (1) __position within the coastal landscape__ and (2) __vegetation structure__. Research to-date suggests supratidal forests may play important roles in the cycling and storage of carbon and nutrients in the coastal zone (Adame et al. 2019, Iram et al. 2021, Kelleway et al. 2021), among other ecosystem services. Supratidal forests have been subjected to significant historic losses and land-use pressures (Keith and Scott 2005, Boon et al. 2016). Their low-lying position within the coastal zone – where catchment, aquatic and anthropogenic processes interact - may make supratidal forests particularly susceptible to changes in inundation and/or salinization (Saintilan et al. 2018, Conroy et al. 2022).
 
@@ -19,7 +40,9 @@ The lack of continental-wide information on supratidal forests is a significant 
 
 This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise supratidal forests). 
 
-### 3. What are suprtidal forests?
+---
+
+### 3. What are supratidal forests?
 __*** Note: this description and draft typology will be verified and updated based upon the final national supratidal forest mapping product and collation of associated field datasets ***__
 
 #### 3.1 Conceptual definition
@@ -104,6 +127,7 @@ A initial continental-scale mapping workflow for supratidal and associated coast
 
 The national supratidal forests map generated in this project will therefore provide a binary classification regarding the presence/absence of supratidal and associated coastal forested wetlands, which is undifferentiated on either the basis of vegetation composition or geomorphic classes.
 
+---
 
 ### 4. Draft typology
 
@@ -127,6 +151,8 @@ __Table 1.__ Summary of the geomorphic classes of coastal forested wetland expec
 
 &nbsp;
 
+---
+
 ### 5. Interaction with existing classification and typology schemes
 
 The Interim [Australian National Aquatic Ecosystem (ANAE) Classification Framework](https://www.dcceew.gov.au/water/cewo/monitoring/aquatic-ecosystems-toolkit) is a broad-scale and attribute-based scheme for classifying aquatic ecosystems in a nationally-consistent manner. The draft typology presented here, broadly aligns with Level 3 categorisation of aquatic ecosystems into marine, estuarine, lacustrine, palustrine, riverine, floodplain, and subterranean classes; and the use of elevation markers such as Highest Astronomical Tide (HAT) as a key discriminant among classes. We expect coastal forested wetlands within marine, estuarine, palustrine and floodplain classes may be among the diversity of settings included in the national supratidal forest map (Table 1). There may be some inconsistencies, however – for example, ‘supratidal’ elevations are an included water depth class within marine/estuarine classes of the ANAE (following the National Intertidal Subtidal Benthic Habitat Classification Scheme), despite HAT (i.e. our lower limit of the supratidal zone) being used as the upper limit of marine/estuarine classes (Aquatic Ecosystems Task Group, 2012). The definition of an upper salinity threshold of 0.5‰ for palustrine settings may also be inconsistent with some ‘coastal palustrine forests’ and ‘perched supratidal forests’ in our mapping product, which might be subject at times to considerably higher salinity conditions. It is also noted that the ANAE is still considered an interim product in need of further revision (Aquatic Ecosystems Task Group, 2012).
@@ -142,12 +168,39 @@ Realm: TF Terrestrial-Freshwater
 
 We expect that the completion of the revised national supratidal forest mapping product and analysis of this in the context of existing ecological and other mapping products (e.g. state-based vegetation community mapping products) will lead to improvements overlay and collation of associated field datasets.
 
+---
 
 ### 6. Relationship with other ecosystems globally
 
 While analogous settings are likely to occur along similar coastlines globally, the term supratidal forest has not been broadly used outside of Australia, with some exceptions (Huntley et al. 2019, Peterson et al. 2020). Broad terminology such as ‘tidal forests’ and ‘coastal freshwater wetlands’ have been reported occasionally (Doyle et al. 2010, Grieger et al. 2020), though more specific/restrictive terms (such as tidal freshwater forested wetlands) or regionally-specific names are commonly referred to (Krauss et al. 2018). In all instances, these existing terms are considered insufficiently inclusive, or are not-locally relevant, for application across the diversity of settings present along Australia’s coasts.
 
-### 7. References
+---
+
+### 7. SCF habitats - extent model
+
+textetextxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#### 7.1 Elevation model
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxx
+
+#### 7.2 Connectivity model
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+---
+
+### 8. Temporal changes to SCF forests
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+---
+
+### 9. References
 Aquatic Ecosystems Task Group. 2012. Aquatic Ecosystems Toolkit. Module 2. Interim Australian National Aquatic Ecosystem Classification Framework. Australian Government Department of Sustainability, Environment, Water, Population and Communities, Canberra.
 
 Adame, M. F., R. Reef, V. N. L. Wong, S. R. Balcombe, M. P. Turschwell, E. Kavehei, D. C. Rodríguez, J. J. Kelleway, P. Masque, and M. Ronan. 2019. Carbon and Nitrogen Sequestration of Melaleuca Floodplain Wetlands in Tropical Australia. Ecosystems 23:454-466.
