@@ -178,8 +178,7 @@ While analogous settings are likely to occur along similar coastlines globally, 
 
 ### 7. SCF habitats - extent model
 
-textetextxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+A supratidal extent model has been developed to provide a map of potential supratidal areas for the whole country. This extent model is based on two normalised models (elevation and connectivity) and shows the potential of SCF forests to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
 
 #### 7.1 Elevation model
 
