@@ -38,16 +38,16 @@ This repository includes descriptions, scripts and notebooks for developing a na
 
 The lack of continental-wide information on supratidal forests is a significant missing link in knowledge of the distribution of coastal blue carbon ecosystems in Australia. Without the ability to classify these forests using remotely sensed imagery, it is currently not possible to identify where this ecosystem exists across Australia or to track changes over time, including increases in extent from restoration projects. This project will develop a national __*Supratidal and Coastal FLoodplain (SCF) Forest*__ mapping workflow and associated spatial datasets for Australia. The outputs from this project will align with Australia’s Ocean Accounts, providing a missing piece in national mapping and reporting on Australia’s ocean-based natural assets.
 
-This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise __*SCF Forests#__). 
+This new mapping product is intended to complement existing national, state and local mapping initiatives, which are important for understanding the distribution and management of significant biodiversity values (including threatened species and ecological communities which may occur within or comprise __*SCF Forests*__). 
 
 ---
 
 ### What are Supratidal and Coastal Floodplain Forests?
-__*** Note: this description and draft typology will be verified and updated based upon the final national SCF Forest mapping product and collation of associated field datasets ***__
+__*** Note: this description and draft typology will be verified and updated based upon the final national __*SCF Forest*__ mapping product and collation of associated field datasets ***__
 
 #### Conceptual definition
 
-Supratidal forests have been defined and differentiated from other coastal ecosystems on the basis of their position within the coastal landscape (i.e. typically occurring at higher elevations than mangrove forests, and lower elevations than ‘terrestrial’ forests) and vegetation structure (i.e. trees and tall shrubs contrasting the vegetation structure of herbaceous marshes or unvegetated flats which may also occupy similar or adjacent elevation ranges). There are both conceptual and technical challenges which prevent the clear separation of ‘supratidal forests’ from other low-lying ‘coastal floodplain forests’ in the coastal zone, which have necessitated their pooling together in a __*Supratidal and Coastal Floodplain Forest*__ map. These factors are explored in further detail below, with examples encountered in Australian settings. While multiple geomorphic and vegetation classes are described, the Australian __*SCF Forest*__ map generated in this project will provide an index which reflects the likelihood of ‘__*SCF Forests*__’ (i.e. inclusive of, but undifferentiated on the basis of geomorphic or vegetation composition classes).
+Supratidal forests have been defined and differentiated from other coastal ecosystems on the basis of their position within the coastal landscape (i.e. typically occurring at higher elevations than mangrove forests, and lower elevations than ‘terrestrial’ forests) and vegetation structure (i.e. trees and tall shrubs contrasting the vegetation structure of herbaceous marshes or unvegetated flats which may also occupy similar or adjacent elevation ranges). There are both conceptual and technical challenges which prevent the clear separation of ‘supratidal forests’ from other low-lying ‘coastal floodplain forests’ in the coastal zone, which have necessitated their pooling together in a __*SCF Forest*__ map. These factors are explored in further detail below, with examples encountered in Australian settings. While multiple geomorphic and vegetation classes are described, the Australian __*SCF Forest*__ map generated in this project will provide an index which reflects the likelihood of ‘__*SCF Forests*__’ (i.e. inclusive of, but undifferentiated on the basis of geomorphic or vegetation composition classes).
 
 (1) Position within the coastal landscape
 
@@ -60,27 +60,27 @@ Seasonal-flooding of forests via rainfall and catchment runoff may occur either 
 
 <img src="figures/FIG1_STF_conceptual_2024.jpg" width="" height="" />
 
-__Figure 1.__ Typical position of SCF forests within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal floodplain forest) are presented. MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum. 
+__Figure 1.__ Typical position of __*SCF Forest*__ within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal floodplain forest) are presented. MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum. 
 
 &nbsp;
 
 Where there are barriers to tidal inundation (e.g. behind geomorphic features such as ridges and levees, or anthropogenic features such as floodgates and bund walls), forested wetlands may also occur on coastal floodplains at elevations nearer or below mean sea level and may be subject to sporadic or seasonal flooding (Figure 2). While this specific class of forested wetland is unlikely to be directly influenced by surface tidal inundation, it may be subject to other coastal processes (including indirect influences of tides on the water table).
 
-A more complex scenario arises in coastal waterbodies which experience intermittent opening to tidal flows, such as intermittently closed and open lakes and lagoons (ICOLLs), or behind anthropogenic structure which manipulate tidal and non-tidal levels (e.g. behind tidal barrages). In these settings, inundation dynamics are controlled by interactions between estuary entrance or structure status (i.e. open or closed) and catchment inflows and evaporation (Figure 2). For example, areas above the highest astronomical tide (HAT) (as defined under open ICOLL conditions in Figure 2a), may experience greater depth and extent of inundation with brackish or fresh waters for periods of time following closure of the entrance (Figure 2b). In these instances, the distribution of Supratidal forest may extend to elevations higher than in permanently open settings, with these elevations referred to here as a separate geomorphic class __D. ‘perched’ supratidal forests__. Such changes in water depth and inundation extent have implications for the distribution of supratidal forests across upper intertidal, supratidal and ‘perched’ supratidal elevations, as forest species may respond dynamically - via expansion or contraction - according to inundation and salinity tolerances.
+A more complex scenario arises in coastal waterbodies which experience intermittent opening to tidal flows, such as intermittently closed and open lakes and lagoons (ICOLLs), or behind anthropogenic structure which manipulate tidal and non-tidal levels (e.g. behind tidal barrages). In these settings, inundation dynamics are controlled by interactions between estuary entrance or structure status (i.e. open or closed) and catchment inflows and evaporation (Figure 2). For example, areas above the highest astronomical tide (HAT) (as defined under open ICOLL conditions in Figure 2a), may experience greater depth and extent of inundation with brackish or fresh waters for periods of time following closure of the entrance (Figure 2b). In these instances, the distribution of supratidal forest may extend to elevations higher than in permanently open settings, with these elevations referred to here as a separate geomorphic class __D. ‘perched’ supratidal forests__. Such changes in water depth and inundation extent have implications for the distribution of supratidal forests across upper intertidal, supratidal and ‘perched’ supratidal elevations, as forest species may respond dynamically - via expansion or contraction - according to inundation and salinity tolerances.
 
 <img src="figures/FIG2-ICOLL-perched.png" width="" height="800" />
 
-__Figure 2.__ Typical position of Supratidal forests and associated ecosystems within intermittently closed and open lakes and lagoons (ICOLLs) during open-entrance conditions (a) and closed-entrance conditions (b). MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum.
+__Figure 2.__ Typical position of __*SCF Forests*__ and associated ecosystems within intermittently closed and open lakes and lagoons (ICOLLs) during open-entrance conditions (a) and closed-entrance conditions (b). MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum.
 
 &nbsp;
 
 (2) Vegetation structure and composition
 
-SCF forests occur within the geomorphic positions described above, across low-energy settings of many coastlines and estuaries around Australia. This includes distributions across tropical, sub-tropical and temperate climatic zones, though little to no distribution is expected along semi-arid and arid coastlines where unvegetated flats and/or small-statured succulents dominate the supratidal zone. 
+__*SCF Forest*__ occur within the geomorphic positions described above, across low-energy settings of many coastlines and estuaries around Australia. This includes distributions across tropical, sub-tropical and temperate climatic zones, though little to no distribution is expected along semi-arid and arid coastlines where unvegetated flats and/or small-statured succulents dominate the supratidal zone. 
 
-SCF forests in Australia may comprise and support multiple species of trees, shrubs, and groundcover vegetation (including saltmarsh and/or other marsh species). In some settings, groundcovers may be limited or absent, though leaf litter and downed wood coverage is often high.
+__*SCF Forest*__ in Australia may comprise and support multiple species of trees, shrubs, and groundcover vegetation (including saltmarsh and/or other marsh species). In some settings, groundcovers may be limited or absent, though leaf litter and downed wood coverage is often high.
 
-SCF forests in Australia are typically dominated by one or both of two genera: _Melaleuca_ and _Casuarina_. Significantly, these genera differ from most mangrove taxa in that they occur not only within the coastal fringe, but also dominate terrestrial forests and freshwater wetlands over broad areas of Australia. Consequently, it is important to consider landscape position, along with vegetation structure, in any effort to map the distribution of supratidal forests. 
+__*SCF Forest*__ in Australia are typically dominated by one or both of two genera: _Melaleuca_ and _Casuarina_. Significantly, these genera differ from most mangrove taxa in that they occur not only within the coastal fringe, but also dominate terrestrial forests and freshwater wetlands over broad areas of Australia. Consequently, it is important to consider landscape position, along with vegetation structure, in any effort to map the distribution of supratidal forests. 
 
 The genus __*Melaleuca*__ (family: __*MYRTACEAE*__) incorporates multiple species distributed in the coastal zones of Australia (Figure 3), with some distributions also extending through parts of southeast Asia (Tran et al. 2015). The _Melaleucas_, often collectively termed paperbarks and/or tea trees, may have diverse growth habits and physiological tolerances to inundation and salinity. For example, trees of _M. viridiflora_, _M. cajaputi_ and _M. leucadendra_ of >15 m height may dominate coastal floodplain forests and backswamps in northern Australia (Finlayson 2005, Sloane et al. 2019), whereas shorter stands (including shrubby thickets of just a few metres tall) of M. ericifolia and/or _M. halmaturorum_ (SE Australia) or _M. rhaphiophylla_ and/or _M. cuticularis_ (SW Australia) dominate along temperate coastlines (Carter et al. 2006, Turner et al. 2006).
 
@@ -90,7 +90,7 @@ __Figure 3.__ Distribution records of the dominant species of the genus _Melaleu
 
 &nbsp;
 
-Coastal Swamp Oak Forests dominated by the genus __*Casuarina*__ (family: __*CASUARINACEAE*__) forms the landward border of intertidal saltmarshes and/or mangroves, particularly along the east coast of Australia (southern NSW to central QLD) (Boon et al. 2016). _Casuarina glauca_ occurs on low-lying alluvial floodplains distributed along the temperate coast of NSW and the sub-tropical coast of QLD. _Casuarina equisetifolia_ has a native distribution across coastal northeast Australia, whereas _Casuarina obesa_ has a native range predominantly across the southern part of Western Australia (Carter et al. 2006, Kelleway et al. 2022) (Figure 4). Forests and woodlands of the genus _Casuarina_ cover approximately 16,500 km2 of the Australian continent. However, much of this coverage occurs outside coastal catchments. In coastal settings, SCF forests are normally found at elevations below 5 metres above mean sea level, although this ecological community can be observed at much higher elevations and occasionally within the upper intertidal zone.
+Coastal Swamp Oak Forests dominated by the genus __*Casuarina*__ (family: __*CASUARINACEAE*__) forms the landward border of intertidal saltmarshes and/or mangroves, particularly along the east coast of Australia (southern NSW to central QLD) (Boon et al. 2016). _Casuarina glauca_ occurs on low-lying alluvial floodplains distributed along the temperate coast of NSW and the sub-tropical coast of QLD. _Casuarina equisetifolia_ has a native distribution across coastal northeast Australia, whereas _Casuarina obesa_ has a native range predominantly across the southern part of Western Australia (Carter et al. 2006, Kelleway et al. 2022) (Figure 4). Forests and woodlands of the genus _Casuarina_ cover approximately 16,500 km2 of the Australian continent. However, much of this coverage occurs outside coastal catchments.
 
 &nbsp;
 
@@ -100,13 +100,13 @@ __Figure 4.__  Distribution records of the dominant salt-tolerant species of the
 
 &nbsp;
 
-A diversity of other taxa contribute to the tree and shrub flora of Supratidal forests in Australia, including other members of _*MYRTACEAE*_ - e.g. swamp mahogany (_Eucalyptus robusta_), forest red gum (_E. tereticornis_), swamp turpentine (_Lophostemon suaveolens_) – freshwater mangroves (_Barringtonia acutangula_), and a variety of palms (e.g. _Pandanus spiralus_, _Livistonia australis_), among other taxa. Examples of various geomorphic and vegetation classes encountered around Australian coast are presented in Figure 5.
+A diversity of other taxa contribute to the tree and shrub flora of Supratidal forests in Australia, including other members of __*MYRTACEAE*__ - e.g. swamp mahogany (_Eucalyptus robusta_), forest red gum (_E. tereticornis_), swamp turpentine (_Lophostemon suaveolens_) – freshwater mangroves (_Barringtonia acutangula_), and a variety of palms (e.g. _Pandanus spiralus_, _Livistonia australis_), among other taxa. Examples of various geomorphic and vegetation classes encountered around Australian coast are presented in Figure 5.
 
 &nbsp;
 
 <img src="figures/FIG5-collage.png" width="" height="1000" />
 
-__Figure 5.__ Examples of geomorphic and vegetation classes of SCF forests and adjoining ecosystems:  
+__Figure 5.__ Examples of geomorphic and vegetation classes of __*SCF Forests*__ and adjoining ecosystems:  
 (a) Spring tide inundation of _Casuarina glauca_ Swamp Oak Forest (background) and coastal saltmarsh (foreground), Minnamurra River estuary, NSW  
 (b) _Melaleuca_ spp. and _Baringtonia acutangula_ supratidal forest (right) adjacent to coastal saltmarsh (centre) and _Avicennia_ mangrove (left), Mary River estuary, NT  
 (c) _Melaleuca leucadendra_ supratidal forest (background) adjacent to saltmarsh, saltflat and mangrove (foreground), Killaloe, QLD  
@@ -120,12 +120,12 @@ __Figure 5.__ Examples of geomorphic and vegetation classes of SCF forests and a
 
 #### Mapping definition
 
-An initial continental-scale mapping workflow for SCF forests has been developed which is inclusive of the multiple landscape position and vegetation features described in the conceptual definition above. This workflow is currently being refined, but includes three key parameters by which areas will be defined as SCF forests in the mapping product: 
+An initial continental-scale mapping workflow for __*SCF Forests*__ has been developed which is inclusive of the multiple landscape position and vegetation features described in the conceptual definition above. This workflow is currently being refined, but includes three key parameters by which areas will be included in the mapping product: 
 1.	Woody or forested vegetation, as defined by exceedance of a ‘woody cover’ threshold using nationally-available remote sensing products;
 2.	Landscape position within the coastal zone and a suitable elevation envelope (i.e. upper and/or lower elevation thresholds);
 3.	Not mapped as mangrove (or saltmarsh) under existing nationally-available mapping products.
 
-The national SCF forest map generated in this project will therefore provide a binary classification regarding the presence/absence of supratidal and associated coastal forested wetlands, which is undifferentiated on either the basis of vegetation composition or geomorphic classes.
+The national __*SCF Forest*__ map generated in this project will utilise the above criteria to provide an index which reflects the likelihood of ocurrence of __*SCF Forests*__, which is undifferentiated on either the basis of vegetation composition or geomorphic classes.
 
 ---
 
@@ -155,7 +155,7 @@ __Table 1.__ Summary of the geomorphic classes of coastal forested wetland expec
 
 ### Interaction with existing classification and typology schemes
 
-The Interim [Australian National Aquatic Ecosystem (ANAE) Classification Framework](https://www.dcceew.gov.au/water/cewo/monitoring/aquatic-ecosystems-toolkit) is a broad-scale and attribute-based scheme for classifying aquatic ecosystems in a nationally-consistent manner. The draft typology presented here, broadly aligns with Level 3 categorisation of aquatic ecosystems into marine, estuarine, lacustrine, palustrine, riverine, floodplain, and subterranean classes; and the use of elevation markers such as Highest Astronomical Tide (HAT) as a key discriminant among classes. We expect coastal forested wetlands within marine, estuarine, palustrine and floodplain classes may be among the diversity of settings included in the national SCF forest map (Table 1). There may be some inconsistencies, however – for example, ‘supratidal’ elevations are an included water depth class within marine/estuarine classes of the ANAE (following the National Intertidal Subtidal Benthic Habitat Classification Scheme), despite HAT (i.e. our lower limit of the supratidal zone) being used as the upper limit of marine/estuarine classes (Aquatic Ecosystems Task Group, 2012). The definition of an upper salinity threshold of 0.5‰ for palustrine settings may also be inconsistent with some ‘coastal palustrine forests’ and ‘perched supratidal forests’ in our mapping product, which might be subject at times to considerably higher salinity conditions. It is also noted that the ANAE is still considered an interim product in need of further revision (Aquatic Ecosystems Task Group, 2012).
+The Interim [Australian National Aquatic Ecosystem (ANAE) Classification Framework](https://www.dcceew.gov.au/water/cewo/monitoring/aquatic-ecosystems-toolkit) is a broad-scale and attribute-based scheme for classifying aquatic ecosystems in a nationally-consistent manner. The draft typology presented here, broadly aligns with Level 3 categorisation of aquatic ecosystems into marine, estuarine, lacustrine, palustrine, riverine, floodplain, and subterranean classes; and the use of elevation markers such as Highest Astronomical Tide (HAT) as a key discriminant among classes. We expect coastal forested wetlands within marine, estuarine, palustrine and floodplain classes may be among the diversity of settings included in the national __*SCF Forest*__ map (Table 1). There may be some inconsistencies, however – for example, ‘supratidal’ elevations are an included water depth class within marine/estuarine classes of the ANAE (following the National Intertidal Subtidal Benthic Habitat Classification Scheme), despite HAT (i.e. our lower limit of the supratidal zone) being used as the upper limit of marine/estuarine classes (Aquatic Ecosystems Task Group, 2012). The definition of an upper salinity threshold of 0.5‰ for palustrine settings may also be inconsistent with some ‘coastal floodplain forests’ and ‘perched supratidal forests’ in our mapping product, which might be subject at times to considerably higher salinity conditions. It is also noted that the ANAE is still considered an interim product in need of further revision (Aquatic Ecosystems Task Group, 2012).
 
 The diverse nature of Australia’s supratidal forests also makes simple alignment with new [IUCN Global Ecosystem Typology](https://www.iucn.org/resources/conservation-tool/iucn-global-ecosystem-typology) challenging, as various Australia settings might be variously categorised under multiple realms and functional groups based upon their landscape position and climatic zone (Table 1):
 
@@ -166,19 +166,19 @@ Realm: TF Terrestrial-Freshwater
 - TF1.1 Tropical flooded forests and peat forests  
 - TF1.2 Subtropical/temperate forested wetlands  
 
-We expect that the completion of the revised national SCF forest mapping product and analysis of this in the context of existing ecological and other mapping products (e.g. state-based vegetation community mapping products) will lead to improvements overlay and collation of associated field datasets.
+We expect that the completion of the revised national __*SCF Forest*__ mapping product and analysis of this in the context of existing ecological and other mapping products (e.g. state-based vegetation community mapping products) will lead to improvements overlay and collation of associated field datasets.
 
 ---
 
 ### Relationship with other ecosystems globally
 
-While analogous settings are likely to occur along similar coastlines globally, the term SCF forest has not been broadly used outside of Australia, with some exceptions (Huntley et al. 2019, Peterson et al. 2020). Broad terminology such as ‘tidal forests’ and ‘coastal freshwater wetlands’ have been reported occasionally (Doyle et al. 2010, Grieger et al. 2020), though more specific/restrictive terms (such as tidal freshwater forested wetlands) or regionally-specific names are commonly referred to (Krauss et al. 2018). In all instances, these existing terms are considered insufficiently inclusive, or are not-locally relevant, for application across the diversity of settings present along Australia’s coasts.
+While analogous settings are likely to occur along similar coastlines globally, the term supratidal forest has not been broadly used outside of Australia, with some exceptions (Huntley et al. 2019, Peterson et al. 2020). Broad terminology such as ‘tidal forests’ and ‘coastal freshwater wetlands’ have been reported occasionally (Doyle et al. 2010, Grieger et al. 2020), though more specific/restrictive terms (such as tidal freshwater forested wetlands) or regionally-specific names are commonly referred to (Krauss et al. 2018). In all instances, these existing terms are considered insufficiently inclusive, or are not-locally relevant, for application across the diversity of settings present along Australia’s coasts.
 
 ---
 
 ### SCF habitats - extent model
 
-A supratidal extent model has been developed to provide a map of potential supratidal areas for the whole country. This extent model is based on two normalised models (elevation and connectivity) and shows the potential of SCF forests to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
+A supratidal extent model has been developed to provide a map of potential supratidal areas for the whole country. This extent model is based on two normalised models (elevation and connectivity) and shows the potential of __*SCF Forests*__ to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
 
 &nbsp;
 
@@ -190,12 +190,12 @@ __Figure 6.__ Normalised Supratidal extent model based on elevation and connecti
 
 #### Elevation model
 
-The elevation model comprises the first components of the potential supratidal and coastal floodplain extent model. It is based on the premise that SCF forests occur in upper intertidal and supritidal areas.
+The elevation model comprises the first components of the potential supratidal extent model. It is based on the premise that __*SCF Forests*__ occur in upper intertidal and supratidal areas.
 Greatest confidence placed to elevations up to High Astronomical Tide (HAT). Decreasing confidence to areas above HAT which are subject to Storm Surges (SS). Further decreasing confidence assigned to the upper limit of 10 m AHD.
 
 Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (10 m AHD). Pixels located within the HAT elevations are assigned the greatest confidence level of 1. Pixels located within the HAT + SS elevations are assigned confidence levels of 0.5 to 0.99. Pixels located higher than the latter and lower than 10 m AHD are assigned the lowest confidense level (0 - 0.49).
 
-HAT is based on the work of P. Branson from CSIRO (LINK). Four hypotetical latitudinal gradients were created based on the literature to account for SS maximums, given that no collated data exists for the continent.
+HAT is based on the work of P. Branson from CSIRO (LINK). Four hypotetical latitudinal gradients were created based on the literature to account for SS maximums, given that no collated data exists for the whole continent.
 A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further south. The state of QLD was splitted in three equally distributed latitudinal areas. The southern-most was assigned a SS of 1.5 m, the northern-most was assigned a SS of 3.5 m and the middle latitudinal area was assigned a SS of 2.5 m.
 
 &nbsp;
@@ -208,8 +208,8 @@ __Figure 7.__ Simplified flowchart showing datasets used to develop the Elevatio
 
 #### Connectivity model
 
-The connectivity model comprises the second component of the potential supratidal and coastal floodplain extent model.
-The premise behind is that supratidal and floodplain forests are connected to waterways and water bodies.
+The connectivity model comprises the second component of the potential supratidal extent model.
+The premise behind is that __*SCF Forest*__ are connected to waterways and water bodies.
 Our approach creates an aquatic layer combining several datasets  (WoFs, ITEM, Mangrove, Saltmarsh, Saltflat and Streams) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation.
 
 &nbsp;
