@@ -12,7 +12,7 @@
 |__License__| The Apache 2.0 license applies to this open source code. |
 
 ### About
-This repository includes descriptions, scripts and notebooks for developing a national __*Supratidal and Coastal Floodplain Forest*__ extent workflow for Australia specific for integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). The project is being led by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
+This repository includes descriptions, scripts and notebooks for developing a national __*Supratidal and Coastal Floodplain Forest*__ extent workflow for Australia, which is consistent with integration within [Digital Earth Australia](https://www.dea.ga.gov.au/). This workflow will provide indices which reflect the likelihood of woody vegetation coverage (i.e. forest and woodland ecosystems) within specified thresholds of elevation and connectivity in the coastal zone. This extent workflow is therefore inclusive of intertidal and supratidal ecosystems, and also includes potentially non-tidal ecosystems which lie within these elevation and connectivity thresholds. The project is being developed by [Dr Chris Owers](https://www.newcastle.edu.au/profile/chris-owers), [Dr Rafael Carvalho](https://www.newcastle.edu.au/profile/rafael-carvalho) and [Dr Jeff Kelleway](https://scholars.uow.edu.au/jeffrey-kelleway).
 
 ---
 
@@ -60,7 +60,7 @@ Seasonal-flooding of forests via rainfall and catchment runoff may occur either 
 
 <img src="figures/FIG1_STF_conceptual_2024.jpg" width="" height="" />
 
-__Figure 1.__ Typical position of __*SCF Forest*__ within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of supratidal forest (A. upper intertidal forest; B. ‘true’ supratidal forest; C. non-tidal, coastal floodplain forest) are presented. MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum. 
+__Figure 1.__ Typical position of __*SCF Forest*__ within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of __*SCF Forest*__ (A. upper intertidal forest; B. supratidal forest; C. coastal floodplain forest without direct tidal influence) are presented. MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum. 
 
 &nbsp;
 
