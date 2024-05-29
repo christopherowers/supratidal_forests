@@ -1,4 +1,4 @@
-![SCF](figures/Top_animation.gif)
+![SCF](figures/Top_figure2.gif)
 
 #  Supratidal and Coastal Floodplain Forests
 
@@ -84,7 +84,7 @@ __*SCF Forest*__ in Australia are typically dominated by one or both of two gene
 
 The genus __*Melaleuca*__ (family: __*MYRTACEAE*__) incorporates multiple species distributed in the coastal zones of Australia (Figure 3), with some distributions also extending through parts of southeast Asia (Tran et al. 2015). The _Melaleucas_, often collectively termed paperbarks and/or tea trees, may have diverse growth habits and physiological tolerances to inundation and salinity. For example, trees of _M. viridiflora_, _M. cajaputi_ and _M. leucadendra_ of >15 m height may dominate coastal floodplain forests and backswamps in northern Australia (Finlayson 2005, Sloane et al. 2019), whereas shorter stands (including shrubby thickets of just a few metres tall) of M. ericifolia and/or _M. halmaturorum_ (SE Australia) or _M. rhaphiophylla_ and/or _M. cuticularis_ (SW Australia) dominate along temperate coastlines (Carter et al. 2006, Turner et al. 2006).
 
-<img src="figures/FIG3-Melalueca-portrait.png" width="" height="1500" />
+<img src="figures/FIG3-Melalueca-landscape.png" width="" height="" />
 
 __Figure 3.__ Distribution records of the dominant species of the genus _Melaleuca_ commonly found within the coastal zone (data source: The Australasian Virtual Herbarium / Atlas of Living Australia; number of records listed in parentheses).
 
