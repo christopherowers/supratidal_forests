@@ -127,7 +127,7 @@ def load_connectivity_mask(
     elevation_band="dem_h",
     resampling="bilinear",
     buffer=20000,
-    max_threshold=100,
+    max_threshold=100, # TODO: Raf, what does this do? Have a play with changing it in notebook and see
     mask_filters=[("dilation", 3)],
     **cost_distance_kwargs,
 ):
@@ -233,6 +233,16 @@ def load_connectivity_mask_aquatic(
     # **cost_distance_kwargs,
 ):
     """
+
+    Modifications: Nov 2024
+    - modifed for supratidal and coastal floodplain forests project by Chris Owers
+    - now specifies an input for starts_da, xr.dataarray, which is a combination 
+        of srtm and coastal vegetated communities including DEA mangroves,
+        JCU saltmarsh, JCU saltflat and CEM intertidal classes
+    - this input for starts_da is then used in xr_cost_distance
+    - I'm sure there is a better way to do this using **cost_distance_kwargs
+        but could not quite get it working
+    
     Generates a mask based on connectivity to ocean pixels, using least-
     cost distance weighted by elevation. By incorporating elevation,
     this mask will extend inland further in areas of low lying elevation
