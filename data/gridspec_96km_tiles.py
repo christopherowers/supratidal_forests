@@ -8,6 +8,6 @@ tiles = [
     (42, 35), # nullarbor
     (52, 31), # coorong
     (59, 26), # corner inlet
-    (59, 26), # shoalhaven
-    (63, 31), # central coast
+    (64, 32), # central coast
+    (63, 31), # shoalhaven
 ]
