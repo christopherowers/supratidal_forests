@@ -1,3 +1,6 @@
+# just using a few test tiles for WIP code
+test_tiles = [(63, 31), (65, 33), (60, 52), (52, 31)]
+
 # below is a list of tiles that are to be included within the supratidal and coastal floodplain forest continential map
 # based on a gridspec of 96km (see notebooks on elevation and connectivity for more info)
 # Comment for key sites are made in specific lines
