@@ -1,5 +1,8 @@
 # just using a few test tiles for WIP code
-test_tiles = [(63, 31), (65, 33), (60, 52), (52, 31)]
+test_tiles = [(63, 31), (45, 58), (65, 33), (60, 52), (52, 31), (59, 26)]
+
+# issues with connectivity (no aquatic starting point) due to inland tile: (48, 55) - tiles[52:53] DONE! normally but extent to 100000, (34, 33) - tiles[188:189] DONE! manually with SCF_connectivity.ipynb then bought into SCFF_loop with 100000, (58, 23) - tiles[262:263] DONE! manually as previous, (59, 23) - tiles[263:264] DONE! manually as previous, (42, 36) - tiles[159:160] DONE! manually as previous, (66,39) - tiles[150:151] DONE! manually as previous
+### above now not an issue with mangrove buffered fix!
 
 # below is a list of tiles that are to be included within the supratidal and coastal floodplain forest continential map
 # based on a gridspec of 96km (see notebooks on elevation and connectivity for more info)
@@ -12,14 +15,14 @@ tiles = [
     (38, 56), (39, 56), (40, 56), (41, 56), (42, 56), (43, 56), (44, 56), (49, 56), (50, 56), (51, 56), (56, 56),(57, 56),(59, 56),
     (37, 55), (38, 55), (39, 55), (41, 55), (42, 55), (43, 55), (48, 55), (49, 55), (50, 55), (56, 55), (57, 55), (59, 55), (60, 55), 
     (37, 54), (38, 54), (41, 54), (42, 54), (43, 54), (44, 54), (49, 54), (50, 54), (51, 54), (52, 54), (56, 54), (57, 54), (60, 54), (61, 54),
-    (35, 53), (36, 53), (37, 53), (38, 53), (51, 53), (52, 53), (53, 53), (54, 53), (56, 53), (51, 53), (60, 53), (61, 53), 
+    (35, 53), (36, 53), (37, 53), (38, 53), (51, 53), (52, 53), (53, 53), (54, 53), (56, 53), (57, 53), (60, 53), (61, 53), 
     (35, 52), (36, 52), (37, 52), (53, 52), (54, 52), (55, 52), (56, 52), (60, 52), (61, 52), # Port Douglas(60, 52)
     (34, 51), (35, 51), (53, 51), (54, 51), (55, 51), (56, 51), (61, 51), 
     (34, 50), (61, 50), 
     (32, 49), (33, 49), (34, 49), (61, 49), (62, 49), # Townsville(62, 49)
     (29, 48), (30, 48), (31, 48), (32, 48), (62, 48), (63, 48), (64, 48), 
     (28, 47), (29, 47), (30, 47), (63, 47), (64, 47),
-    (26, 46), (27, 46), (28, 46), (66, 46), 
+    (26, 46), (27, 46), (28, 46), (64, 46), 
     (26, 45), (27, 45), (64, 45), (65, 45), 
     (26, 44), (27, 44), (65, 44), (66, 44), 
     (26, 43), (27, 43), (65, 43), (66, 43), 
