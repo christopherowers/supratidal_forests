@@ -2,7 +2,8 @@
 test_tiles = [(63, 31), (45, 58), (65, 33), (60, 52), (52, 31), (59, 26)]
 
 # issues with connectivity (no aquatic starting point) due to inland tile: (48, 55) - tiles[52:53] DONE! normally but extent to 100000, (34, 33) - tiles[188:189] DONE! manually with SCF_connectivity.ipynb then bought into SCFF_loop with 100000, (58, 23) - tiles[262:263] DONE! manually as previous, (59, 23) - tiles[263:264] DONE! manually as previous, (42, 36) - tiles[159:160] DONE! manually as previous, (66,39) - tiles[150:151] DONE! manually as previous
-### above now not an issue with mangrove buffered fix!
+
+### above now not an issue with mangrove buffered fix for some - these ran as usual: (58, 23) - tiles[262:263]
 
 # below is a list of tiles that are to be included within the supratidal and coastal floodplain forest continential map
 # based on a gridspec of 96km (see notebooks on elevation and connectivity for more info)
