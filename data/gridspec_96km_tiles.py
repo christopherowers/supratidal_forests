@@ -2,7 +2,7 @@
 # based on a gridspec of 96km (see notebooks on elevation and connectivity for more info)
 # Comment for key sites are made in specific lines
 
-# Dec 2024 v2 runs: some tiles failed on SCFF_loop.ipynb due to issues with connectivity aquatic layer not being close to the coastline (no aquatic starting point; inland tiles mostly). therefore list below were created for SCFF_loop.ipynb and SCFF_loop_large connetivitybuffer.ipynb
+# Dec 2024 runs: some tiles failed on SCFF_loop.ipynb due to issues with connectivity aquatic layer not being close to the coastline (no aquatic starting point; inland tiles mostly). therefore list below were created for SCFF_loop.ipynb and SCLF_loop_largeconnectivitybuffer.ipynb
 
 # tiles used for development/testing
 test_tiles = [(63, 31), (45, 58), (65, 33), (60, 52), (52, 31), (59, 26)]
@@ -51,7 +51,7 @@ all_tiles = [
     (58, 21), (59, 21), # Tasmania
 ]
 
-# tiles run in SCFF_loop.ipynb successfully
+# tiles run in SCLF_loop.ipynb successfully
 tiles = [
     (57, 60), (58, 60), # Northern most tiles -- Cape York
     (43, 59), (44, 59), (45, 59), (46, 59), (47, 59), (48, 59), (50, 59), (51, 59), (57, 59), (58, 59), 
@@ -95,5 +95,5 @@ tiles = [
     (58, 21), (59, 21), # Tasmania
 ]
 
-# tiles run in SCFF_loop_large connetivitybuffer.ipynb successfully
+# tiles run in SCLF_loop_largeconnectivitybuffer.ipynb successfully
 largeconnectivitybuffer = [(48, 55), (34, 33), (42, 36), (66, 39)]
