@@ -106,7 +106,7 @@ A diversity of other taxa contribute to the tree and shrub flora of Supratidal f
 <img src="figures/FIG5-collage.png" width="" height="1000" />
 
 __Figure 5.__ Examples of geomorphic and vegetation classes of __*SCLF*__ and adjoining ecosystems:  
-(a) Spring tide inundation of _Casuarina glauca_ Swamp Oak Forest (background) and coastal saltmarsh (foreground), Minnamurra River estuary, NSW  
+(a) Spring tide inundation of _Casuarina glauca_ Swamp Oak Forest supratidal forest (background) and coastal saltmarsh (foreground), Minnamurra River estuary, NSW  
 (b) _Melaleuca_ spp. and _Baringtonia acutangula_ supratidal forest (right) adjacent to coastal saltmarsh (centre) and _Avicennia_ mangrove (left), Mary River estuary, NT  
 (c) _Melaleuca leucadendra_ supratidal forest (background) adjacent to saltmarsh, saltflat and mangrove (foreground), Killaloe, QLD  
 (d) Non-tidal _Melaleuca_ spp. floodplain forest (dry season), Mary River, NT.  
@@ -119,7 +119,7 @@ __Figure 5.__ Examples of geomorphic and vegetation classes of __*SCLF*__ and ad
 
 #### Mapping definition
 
-A continental-scale mapping workflow for __*SCLFs*__ has been developed which is inclusive of the multiple landscape position and vegetation features described in the conceptual definition above. This workflow includes three key parameters by which areas will be included in the mapping product: 
+A continental-scale mapping workflow for __*SCLF*__ has been developed which is inclusive of the multiple landscape position and vegetation features described in the conceptual definition above. This workflow includes three key parameters by which areas will be included in the mapping product: 
 1.	Landscape position within the coastal zone and a suitable elevation envelope (i.e. upper and/or lower elevation thresholds);
 2.	Landscape position within the coastal zone that is connected to tidal waters (or intertidal vegetation)
 3.	Woody or forested vegetation, as defined by exceedance of a ‘woody cover’ threshold using nationally-available remote sensing products;
