@@ -127,7 +127,7 @@ def load_connectivity_mask(
     elevation_band="dem_h",
     resampling="bilinear",
     buffer=20000,
-    max_threshold=100, # TODO: Raf, what does this do? Have a play with changing it in notebook and see
+    max_threshold=100,
     mask_filters=[("dilation", 3)],
     **cost_distance_kwargs,
 ):
