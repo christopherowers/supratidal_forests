@@ -1,7 +1,9 @@
 products:
     # Static path names for models, extracted to top to make them easier to change
     # woody_cover_model: &woody_model "/home/jovyan/code/supratidal_forests/models/wcf_pickle_sklearn_version_1.pickle"
-    woody_cover_model: &woody_model "/home/jovyan/code/supratidal_forests/models/wcf_pickle_sklearn_version_1-3-2.pickle"
+    # woody_cover_model: &woody_model "/home/jovyan/code/supratidal_forests/models/wcf_pickle_sklearn_version_1-3-2.pickle"
+    # woody_cover_model: &woody_model "/home/jovyan/code/supratidal_forests/models/wcf_pickle_sklearn_version_1-4-2.pickle"
+    woody_cover_model: &woody_model "/home/jovyan/code/supratidal_forests/models/wcf_pickle_sklearn_version_1-5-2.pickle"
     
     # Virtual products recipes to generate
     best_pixel_gmad:
@@ -11,9 +13,9 @@ products:
             group_by: datacube.virtual.transformations.year
             input:
                 collate:
-                    - product: ga_ls8c_nbart_gm_cyear_3 # 2013 - 2022
-                    - product: ga_ls5t_nbart_gm_cyear_3 # 1986 - 2011
-                    - product: ga_ls7e_nbart_gm_cyear_3 # 1999 - 2021
+                    - product: ga_ls8cls9c_gm_cyear_3 # 2013 - 2022 ga_ls8c_nbart_gm_cyear_3 ga_ls8cls9c_gm_cyear_3
+                    - product: ga_ls5t_gm_cyear_3 # 1986 - 2011 ga_ls5t_nbart_gm_cyear_3 ga_ls5t_gm_cyear_3
+                    - product: ga_ls7e_gm_cyear_3 # 1999 - 2021 ga_ls7e_nbart_gm_cyear_3 ga_ls7e_gm_cyear_3 
                 index_measurement_name: sensor
 
     woody_cover:
