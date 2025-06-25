@@ -57,7 +57,7 @@ Seasonal-flooding of forests via rainfall and catchment runoff may occur either 
 
 &nbsp;
 
-<img src="figures/FIG1_STF_conceptual_2024.jpg" width="" height="" />
+<img src="figures/FIG1-conceptual-alpha.png" width="" height="" />
 
 __Figure 1.__ Typical position of __*SCLF*__ within the coastal zone, in relation to the tidal frame, non-tidal inundation, and adjoining intertidal and terrestrial ecosystems. Three geomorphic classes of __*SCLF*__ (A. upper intertidal forest; B. supratidal forest; C. coastal lowland forest without direct tidal influence) are presented. MSL = Mean Sea Level; MHWS = Mean High Water Spring; HAT = Highest Astronomical Tide; AHD = Australian Height Datum. 
 
@@ -67,7 +67,7 @@ Where there are barriers to tidal inundation (e.g. behind geomorphic features su
 
 A more complex scenario arises in coastal waterbodies which experience intermittent opening to tidal flows, such as intermittently closed and open lakes and lagoons (ICOLLs), or behind anthropogenic structure which manipulate tidal and non-tidal levels (e.g. behind tidal barrages). In these settings, inundation dynamics are controlled by interactions between estuary entrance or structure status (i.e. open or closed) and catchment inflows and evaporation (Figure 2). For example, areas above the highest astronomical tide (HAT) (as defined under open ICOLL conditions in Figure 2a), may experience greater depth and extent of inundation with brackish or fresh waters for periods of time following closure of the entrance (Figure 2b). In these instances, the distribution of supratidal forest may extend to elevations higher than in permanently open settings, with these elevations referred to here as a separate geomorphic class __D. ‘perched’ supratidal forests__. Such changes in water depth and inundation extent have implications for the distribution of supratidal forests across upper intertidal, supratidal and ‘perched’ supratidal elevations, as forest species may respond dynamically - via expansion or contraction - according to inundation and salinity tolerances.
 
-<img src="figures/FIG2-ICOLL-perched.png" width="" height="800" />
+<img src="figures/FIG2-ICOLL-v2.png" width="" height="800" />
 
 __Figure 2.__ Typical position of __*SCLF*__ and associated ecosystems within intermittently closed and open lakes and lagoons (ICOLLs) during open-entrance conditions (a) and closed-entrance conditions (b). MSL = Mean Sea Level; HAT = Highest Astronomical Tide; AHD = Australian Height Datum.
 
