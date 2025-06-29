@@ -1,4 +1,4 @@
-![SCF](figures/Top_figure2.gif)
+![SCF](figures/banner_figure.png)
 
 #  Supratidal and Coastal Lowland Forests
 
@@ -178,13 +178,13 @@ There is increasing recognition of the diversity of tidal forested wetlands glob
 
 ### SCLF habitats - extent model
 
-A supratidal and coastal lowland extent model has been developed to provide a map of potential SCLF areas for the whole country. This extent model is based on three sub-model components (elevation, connectivity and vegetation) and shows the potential of __*SCLF*__ to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
+A supratidal and coastal lowland extent model has been developed to provide a map of potential SCLF areas for Australia. This extent model is based on three sub-model components (elevation, connectivity and vegetation) and shows the potential of __*SCLF*__ to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
 
 &nbsp;
 
-<img src="figures/FIG6_SCF_extent_model.jpg" width="" height="" />
+<img src="figures/SCLF_Extent_Model.jpg" width="" height="" />
 
-__Figure 6.__ Normalised Supratidal extent model based on elevation and connectivity models. 
+__Figure 6.__ Supratidal and coastal lowland forest (SCLF) extent model based on elevation, connectivity and vegetation (i.e. woody cover fraction, Liao et al. (2020)) models. 
 
 &nbsp;
 
@@ -200,7 +200,7 @@ A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further
 
 &nbsp;
 
-<img src="figures/FIG7_Elevation.jpg" width="" height="" />
+<img src="figures/Elevation.jpg" width="" height="" />
 
 __Figure 7.__ Simplified flowchart showing datasets used to develop the Elevation model. 
 
@@ -214,7 +214,7 @@ Our approach creates an aquatic layer combining several datasets  (WoFs, Mangrov
 
 &nbsp;
 
-<img src="figures/FIG8_Connectivity.jpg" width="" height="" />
+<img src="figures/Connectivity.jpg" width="" height="" />
 
 __Figure 8.__ Simplified flowchart showing datasets used to develop the Connectivity model. 
 
@@ -252,7 +252,7 @@ Adame, M. F., J. Kelleway, K. W. Krauss, C. E. Lovelock, J. B. Adams, S. M. Trev
 
 Adame, M. F., R. Reef, V. N. L. Wong, S. R. Balcombe, M. P. Turschwell, E. Kavehei, D. C. Rodríguez, J. J. Kelleway, P. Masque, and M. Ronan. 2019. Carbon and Nitrogen Sequestration of Melaleuca Floodplain Wetlands in Tropical Australia. Ecosystems 23:454-466.
 
-Branson, P. 2023. Coastal carbon - Australia's blue forest future - Water Levels. v1. CSIRO. Data Collection. https://doi.org/10.25919/6672-jx11
+Branson, P. 2023. Coastal carbon - Australia's blue forest future - Water Levels. v1. CSIRO. Data Collection.
 
 Boon, P., D. Keith, and E. Raulings. 2016. Vegetation of coastal floodplains and wetlands in south-eastern Australia. Pages 145-176 in S. Capon, C. James, and M. Reid, editors. Vegetation of Australia’s Riverine Landscapes. CSIRO Publishing, Collingwood, VIC.
 
