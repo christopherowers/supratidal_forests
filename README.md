@@ -178,7 +178,7 @@ There is increasing recognition of the diversity of tidal forested wetlands glob
 
 ### SCLF habitats - extent model
 
-A supratidal and coastal lowland extent model has been developed to provide a map of potential SCLF areas for the whole country. This extent model is based on two normalised models (elevation and connectivity) and shows the potential of __*SCLF*__ to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
+A supratidal and coastal lowland extent model has been developed to provide a map of potential SCLF areas for the whole country. This extent model is based on three sub-model components (elevation, connectivity and vegetation) and shows the potential of __*SCLF*__ to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
 
 &nbsp;
 
@@ -191,12 +191,12 @@ __Figure 6.__ Normalised Supratidal extent model based on elevation and connecti
 #### Elevation model
 
 The elevation model comprises the first components of the potential supratidal extent model. It is based on the premise that __*SCLF*__ occur in upper intertidal and supratidal areas.
-Greatest confidence placed to elevations up to High Astronomical Tide (HAT). Decreasing confidence to areas above HAT which are subject to Storm Surges (SS). Further decreasing confidence assigned to the upper limit of 10 m AHD.
+Greatest confidence placed to elevations up to High Astronomical Tide (HAT). Decreasing confidence to areas above HAT which are subject to Storm Surges (SS). Further decreasing confidence assigned to the upper limit of 11 m AHD.
 
-Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (10 m AHD). Pixels located within the HAT elevations are assigned the greatest confidence level of 1. Pixels located within the HAT + SS elevations are assigned confidence levels of 0.5 to 0.99. Pixels located higher than the latter and lower than 10 m AHD are assigned the lowest confidense level (0 - 0.49).
+Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (11 m AHD). Pixels located within the HAT elevations are assigned the greatest confidence level of 1. Pixels located within the HAT + SS elevations are assigned confidence levels of 0.5 to 0.99. Pixels located higher than the latter and lower than 11 m AHD are assigned the lowest confidence level (0 - 0.49).
 
-HAT is based on the work of P. Branson from CSIRO. Four hypotetical latitudinal gradients were created based on the literature to account for SS maximums, given that no collated data exists for the whole continent.
-A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further south. The state of QLD was splitted in three equally distributed latitudinal areas. The southern-most was assigned a SS of 1.5 m, the northern-most was assigned a SS of 3.5 m and the middle latitudinal area was assigned a SS of 2.5 m.
+HAT is based on the work of Branson (2023). Four hypothetical latitudinal gradients were created based on the literature to account for SS maximums, given that no collated data exists for the whole continent.
+A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further south. The state of QLD was split in three equally distributed latitudinal areas. The southern-most was assigned a SS of 1.5 m, the northern-most was assigned a SS of 3.5 m and the middle latitudinal area was assigned a SS of 2.5 m.
 
 &nbsp;
 
@@ -210,7 +210,7 @@ __Figure 7.__ Simplified flowchart showing datasets used to develop the Elevatio
 
 The connectivity model comprises the second component of the potential supratidal extent model.
 The premise behind is that __*SCLF*__ are connected to waterways and water bodies.
-Our approach creates an aquatic layer combining several datasets  (WoFs, ITEM, Mangrove, Saltmarsh, Saltflat and Streams) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation.
+Our approach creates an aquatic layer combining several datasets  (WoFs, Mangrove, Saltmarsh, Saltflat, Segrass) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation.
 
 &nbsp;
 
@@ -252,6 +252,8 @@ Adame, M. F., J. Kelleway, K. W. Krauss, C. E. Lovelock, J. B. Adams, S. M. Trev
 
 Adame, M. F., R. Reef, V. N. L. Wong, S. R. Balcombe, M. P. Turschwell, E. Kavehei, D. C. Rodríguez, J. J. Kelleway, P. Masque, and M. Ronan. 2019. Carbon and Nitrogen Sequestration of Melaleuca Floodplain Wetlands in Tropical Australia. Ecosystems 23:454-466.
 
+Branson, P. 2023. Coastal carbon - Australia's blue forest future - Water Levels. v1. CSIRO. Data Collection. https://doi.org/10.25919/6672-jx11
+
 Boon, P., D. Keith, and E. Raulings. 2016. Vegetation of coastal floodplains and wetlands in south-eastern Australia. Pages 145-176 in S. Capon, C. James, and M. Reid, editors. Vegetation of Australia’s Riverine Landscapes. CSIRO Publishing, Collingwood, VIC.
 
 Carter, J. L., E. J. Veneklaas, T. D. Colmer, J. Eastham, and T. J. Hatton. 2006. Contrasting water relations of three coastal tree species with different exposure to salinity. Physiologia Plantarum 127:360-373.
@@ -278,6 +280,8 @@ Kelleway, J. J., S. M. Trevathan-Tackett, J. Baldock, and L. P. Critchley. 2022.
 Kelleway, J. J., C. Gorham, S. M. Trevathan-Tackett, M. Palacios, O. Serrano, P. Lavery, Z. Nagel-Tynan, B. Conroy, G. Bendall-Pease, S. Rigney, N. Deutscher, M. Hughes, R. Carvalho, C. Owers, A. R. Jones, S. K. Russell, C. Planque, N. Saintilan, and K. Rogers (Accepted). Inundation and salinity regimes support blue carbon conditions in temperate supratidal forests. Ecological Applications. 
 
 Krauss, K. W., G. B. Noe, J. A. Duberstein, W. H. Conner, C. L. Stagg, N. Cormier, M. C. Jones, C. E. Bernhardt, B. Graeme Lockaby, A. S. From, T. W. Doyle, R. H. Day, S. H. Ensign, K. N. Pierfelice, C. R. Hupp, A. T. Chow, and J. L. Whitbeck. 2018. The Role of the Upper Tidal Estuary in Wetland Blue Carbon Storage and Flux. Global Biogeochemical Cycles 32:817-839.
+
+Liao, Z., Van Dijk, A., He, B., Larraondo, P. and P, Scarth. 2020. Woody vegetation cover, height and biomass at 25-m resolution across Australia derived from multiple site, airborne and satellite observations. International Journal of Applied Earth Observation Geoinformation 93 (102209).
 
 Peterson, C. D., T. C. Linde, and S. Vanderburgh. 2020. Late-Holocene shoreline responses to competing shelf, bay, and beach accommodation spaces under conditions of relative sea level change, and the potential for future catastrophic beach retreat in the Columbia River Littoral Cell, Washington and Oregon, USA. Marine Geology 427:106272.
 
