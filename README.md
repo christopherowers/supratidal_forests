@@ -182,7 +182,7 @@ A supratidal and coastal lowland extent model has been developed to provide a ma
 
 &nbsp;
 
-<img src="figures/SCLF_Extent_Model.jpg" width="" height="" />
+<img src="figures/FIG6-SCLF_Extent_Model.jpg" width="" height="" />
 
 __Figure 6.__ Supratidal and coastal lowland forest (SCLF) extent model based on elevation, connectivity and vegetation (i.e. woody cover fraction, Liao et al. (2020)) models. 
 
@@ -200,7 +200,7 @@ A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further
 
 &nbsp;
 
-<img src="figures/Elevation.jpg" width="" height="" />
+<img src="figures/FIG7-Elevation-model.jpg" width="" height="" />
 
 __Figure 7.__ Simplified flowchart showing datasets used to develop the Elevation model. 
 
@@ -214,7 +214,7 @@ Our approach creates an aquatic layer combining several datasets  (WoFs, Mangrov
 
 &nbsp;
 
-<img src="figures/Connectivity.jpg" width="" height="" />
+<img src="figures/FIG8-Connectivity-model.jpg" width="" height="" />
 
 __Figure 8.__ Simplified flowchart showing datasets used to develop the Connectivity model. 
 
