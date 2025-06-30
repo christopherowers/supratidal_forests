@@ -28,6 +28,7 @@ This repository contains descriptions, scripts and notebooks for developing a na
 - [SCLF habitats - extent model](#sclf-habitats---extent-model)
   - [Elevation model](#elevation-model)
   - [Connectivity model](#connectivity-model)
+- [Data access](#data-access)
 - [Spatial and Temporal consistency](#spatial-and-temporal-consistency)
 - [References](#references)
 
@@ -219,6 +220,14 @@ Our approach creates an aquatic layer combining several datasets  (WoFs, Mangrov
 __Figure 8.__ Simplified flowchart showing datasets used to develop the Connectivity model. 
 
 &nbsp;
+
+---
+
+### Data access
+
+Data for version 1 product release is available through DCCEEW [Find Environmental Data](https://fed.dcceew.gov.au/). This platform allows users to interact withe dataset through a map viewer.
+For spatial data product download, access is available through [Open Research Newcastle](https://openresearch.newcastle.edu.au/). The version 1 product release is produced under CC BY Attribution 4.0 International License.
+
 
 ---
 
