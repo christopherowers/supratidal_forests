@@ -26,8 +26,9 @@ This repository contains descriptions, scripts and notebooks for developing a na
 - [Interaction with existing classifications and typology schemes](#interaction-with-existing-classification-and-typology-schemes)
 - [Relationship with other ecosystems globally](#relationship-with-other-ecosystems-globally)
 - [SCLF habitats - extent model](#sclf-habitats---extent-model)
-  - [Elevation model](#elevation-model)
-  - [Connectivity model](#connectivity-model)
+  - [Elevation sub-model](#elevation-sub-model)
+  - [Connectivity sub-model](#connectivity-sub-model)
+  - [Vegetation sub-model](#vegetation-sub-model)
 - [Data access](#data-access)
 - [Spatial and Temporal consistency](#spatial-and-temporal-consistency)
 - [References](#references)
@@ -181,20 +182,23 @@ There is increasing recognition of the diversity of tidal forested wetlands glob
 
 A supratidal and coastal lowland extent model has been developed to provide a map of potential SCLF areas for Australia. This extent model is based on three sub-model components (elevation, connectivity and vegetation) and shows the potential of __*SCLF*__ to occur, as well as it provides an avenue for blue carbon restoration under the ACCU scheme.
 
+Equal weighting is given to each of the three sub-models of the SCSLF extent model, with pixel values normalised to provide a level of confidence. The Elevation model and Connectivity sub-models are intersected and an aquatic layer is generated using several datasets for intertidal habitats (e.g. mangrove,saltmarsh, saltflat and open water) to exclude pixels from the SCLF model. Woody Cover pixel values (Liao et al. 2020) below 0.2 were excluded from the SCLF.
+
+
 &nbsp;
 
 <img src="figures/FIG6-SCLF_Extent_Model.jpg" width="" height="" />
 
-__Figure 6.__ Supratidal and coastal lowland forest (SCLF) extent model based on elevation, connectivity and vegetation (i.e. woody cover fraction, Liao et al. (2020)) models. 
+__Figure 6.__ Supratidal and coastal lowland forest (SCLF) extent model based on equal weighting of elevation, connectivity and vegetation sub-models (i.e. woody cover fraction, Liao et al. (2020)) models. Example is shown for the Shoalhaven area in NSW.
 
 &nbsp;
 
-#### Elevation model
+#### Elevation sub-model
 
-The elevation model comprises the first components of the potential supratidal extent model. It is based on the premise that __*SCLF*__ occur in upper intertidal and supratidal areas.
+The elevation sub-model comprises the first components of the potential supratidal extent model. It is based on the premise that __*SCLF*__ occur in upper intertidal and supratidal areas.
 Greatest confidence placed to elevations up to High Astronomical Tide (HAT). Decreasing confidence to areas above HAT which are subject to Storm Surges (SS). Further decreasing confidence assigned to the upper limit of 11 m AHD.
 
-Elevation model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (11 m AHD). Pixels located within the HAT elevations are assigned the greatest confidence level of 1. Pixels located within the HAT + SS elevations are assigned confidence levels of 0.5 to 0.99. Pixels located higher than the latter and lower than 11 m AHD are assigned the lowest confidence level (0 - 0.49).
+Elevation sub-model workflow will therefore use a scaling factor based on HAT, SS and maximum elevation threshold (11 m AHD). Pixels located within the HAT elevations are assigned the greatest confidence level of 1. Pixels located within the HAT + SS elevations are assigned confidence levels of 0.5 to 0.99. Pixels located higher than the latter and lower than 11 m AHD are assigned the lowest confidence confidence level (0 - 0.49).
 
 HAT is based on the work of Branson (2023). Four hypothetical latitudinal gradients were created based on the literature to account for SS maximums, given that no collated data exists for the whole continent.
 A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further south. The state of QLD was split in three equally distributed latitudinal areas. The southern-most was assigned a SS of 1.5 m, the northern-most was assigned a SS of 3.5 m and the middle latitudinal area was assigned a SS of 2.5 m.
@@ -203,21 +207,27 @@ A SS of 0.5 m was assigned to the latitudinal areas equivalent to NSW or further
 
 <img src="figures/FIG7-Elevation-model.jpg" width="" height="" />
 
-__Figure 7.__ Simplified flowchart showing datasets used to develop the Elevation model. 
+__Figure 7.__ Simplified flowchart showing datasets used to develop the Elevation sub-model. Example is shown for the Shoalhaven area in NSW.
 
 &nbsp;
 
-#### Connectivity model
+#### Connectivity sub-model
 
-The connectivity model comprises the second component of the potential supratidal extent model.
+The connectivity sub-model comprises the second component of the potential supratidal extent model.
 The premise behind is that __*SCLF*__ are connected to waterways and water bodies.
-Our approach creates an aquatic layer combining several datasets  (WoFs, Mangrove, Saltmarsh, Saltflat, Segrass) and computes a proximity (Euclidian) distance from this layer to the 10 m elevation.
+Our approach creates an aquatic layer combining several datasets (WoFs, Mangrove, Saltmarsh, Saltflat, Segrass) from which a least-cost distance connectivity function is applied. The maximum value of this connectivity function is calculated from and exponential curve based on field data collection (RTK-GPS) of SCLF across key sites in Australia.
 
 &nbsp;
 
 <img src="figures/FIG8-Connectivity-model.jpg" width="" height="" />
 
-__Figure 8.__ Simplified flowchart showing datasets used to develop the Connectivity model. 
+__Figure 8.__ Simplified flowchart showing datasets used to develop the Connectivity sub-model. Example is shown for the Shoalhaven area in NSW.
+
+&nbsp;
+
+
+#### Vegetation sub-model
+The vegetation sub-model was generated on the basis of the woody cover fraction (WCF) model developed by Liao et al. (2020). We exclude herbaceous vegetation from the model (WCF values < 0.2).This aligns with international (FAO) and national (ABARES NFI) definitions of forest, considered where >20% canopy cover.
 
 &nbsp;
 
